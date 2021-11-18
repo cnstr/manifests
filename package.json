@@ -6,7 +6,7 @@
 	"scripts": {
 		"fix": "MODE=husky run-s prepare:0 prepare:1 prepare:2",
 		"build": "MODE=ci run-s prepare:0 prepare:1 prepare:2",
-		"prepare:0": "mkdir -p production && cp index.html 404.html production/",
+		"prepare:0": "mkdir -p production && cp index.html 404.html .github/canister.png production/",
 		"prepare:1": "ts-node ./scripts/index-repositories.ts",
 		"prepare:2": "ts-node ./scripts/piracy-repositories.ts",
 		"prepare": "husky install"
