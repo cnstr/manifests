@@ -17,6 +17,9 @@ const data: RepositoryManifest = json.sort((repositoryA, repositoryB) => {
 
 	// Sorts repositories alphabetically by slug
 	return slugA < slugB ? -1 : slugA > slugB ? 1 : 0
+}).filter((value, index, array) => {
+	// Removes duplicates from the array based on the slug name
+	return array.findIndex(subvalue => subvalue.slug === value.slug) === index
 })
 
 const write = JSON.stringify(data.map(entry => {
