@@ -4,7 +4,8 @@
 	"homepage": "https://github.com/cnstr/manifests#readme",
 	"license": "MIT",
 	"scripts": {
-		"prepare:index-repositories": "ts-node ./scripts/index-repositories.ts"
+		"build": "mkdir production && run-s prepare:1",
+		"prepare:1": "ts-node ./scripts/index-repositories.ts"
 	},
 	"devDependencies": {
 		"@types/node": "^16.11.7",
