@@ -1,13 +1,25 @@
 import { writeFile } from 'fs'
 import { join } from 'path'
+import { exit } from 'process'
 import * as json from '../manifests/piracy-repositories.json'
 
-const data: string[] = [...new Set(json.sort())]
-const write = JSON.stringify(data)
+const mode = process.env.MODE ?? 'none'
+const write: string[] = [...new Set(json.sort())]
 
-writeFile(join('production', 'piracy-repositories.json'), Buffer.from(write), 'utf8', (error) => {
-	if (error) console.log('Encountered an error: %s', error.message)
-})
+if (mode === 'ci') {
+	writeFile(join('production', 'piracy-repositories.json'), Buffer.from(JSON.stringify(write)), 'utf8', (error) => {
+		if (error) {
+			console.log('[CI] Encountered an error: %s', error.message)
+			exit(-1) // Fail GitHub Actions
+		}
+	})
+}
 
-console.log('Piracy Count: %s', data.length)
-console.log('Wrote production manifest file')
+if (mode === 'husky') {
+	writeFile(join('manifests', 'piracy-repositories.json'), Buffer.from(JSON.stringify(write, undefined, '\t')), 'utf8', (error) => {
+		if (error) {
+			console.log('[Husky] Encountered an error: %s', error.message)
+			return
+		}
+	})
+}
