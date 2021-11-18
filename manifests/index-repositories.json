@@ -1,1811 +1,1666 @@
 [
 	{
-		"uri": "https://apt.tale.me",
-		"slug": "tale",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.chariz.com",
-		"slug": "chariz",
-		"ranking": 1
-	},
-	{
-		"uri": "https://repo.dynastic.co",
-		"slug": "dynastic",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.packix.com",
-		"slug": "packix",
-		"ranking": 1
-	},
-	{
-		"uri": "http://apt.thebigboss.org/repofiles/cydia",
-		"dist": "stable",
-		"suite": "main",
-		"slug": "bigboss",
-		"ranking": 2
-	},
-	{
-		"uri": "https://apt.procurs.us",
-		"dist": "iphoneos-arm64/1700",
-		"suite": "main",
-		"slug": "procursus",
-		"ranking": 1
-	},
-	{
-		"uri": "https://apt.bingner.com",
-		"dist": "ios/1443.00",
-		"suite": "main",
-		"slug": "elucubratus",
-		"ranking": 2
-	},
-	{
-		"uri": "https://skylerk99.github.io/",
 		"ranking": 3,
-		"slug": "skylerk99"
+		"slug": "0ver$hadowed",
+		"uri": "https://obumbravit.github.io/0SRepo"
 	},
 	{
-		"uri": "https://ethanrdoesmc.github.io/repo/",
 		"ranking": 3,
-		"slug": "ethanrdoesmc"
+		"slug": "25mao",
+		"uri": "https://apt.25mao.com"
 	},
 	{
-		"uri": "https://poomsmart.github.io/repo/",
-		"ranking": 2,
-		"slug": "poomsmart"
-	},
-	{
-		"uri": "https://exqusic.github.io/",
 		"ranking": 3,
-		"slug": "exqusic"
+		"slug": "aatoz",
+		"uri": "https://aatoz.github.io/Sileo"
 	},
 	{
-		"uri": "https://julioverne.github.io/",
 		"ranking": 3,
-		"slug": "julioverne"
+		"slug": "absidue",
+		"uri": "https://apt.absidue.me"
 	},
 	{
-		"uri": "http://junesiphone.com/supersecret/",
 		"ranking": 3,
-		"slug": "junesiphone"
+		"slug": "adventureowl",
+		"uri": "https://adventureowl.github.io"
 	},
 	{
-		"uri": "https://ib-soft.net/cydia/",
-		"ranking": 2,
-		"slug": "ibsoft"
-	},
-	{
-		"uri": "https://cydia.akemi.ai/",
-		"ranking": 2,
-		"slug": "karen"
-	},
-	{
-		"uri": "https://apt.securarepo.io/",
 		"ranking": 3,
-		"slug": "secura"
+		"slug": "aeonlucid",
+		"uri": "https://aeonlucid.com/cydia"
 	},
 	{
-		"uri": "https://apt.lafond.dev/",
 		"ranking": 3,
-		"slug": "lafond"
+		"slug": "affimbr",
+		"uri": "https://affimbr.github.io/repo"
 	},
 	{
-		"uri": "https://www.yourepo.com",
-		"ranking": 4,
-		"slug": "yourepo"
-	},
-	{
-		"uri": "https://repo.thireus.com/",
 		"ranking": 3,
-		"slug": "thireus"
+		"slug": "agentepsilon",
+		"uri": "https://agentepsilon.github.io/repo"
 	},
 	{
-		"uri": "https://jakeashacks.net/cydia/",
 		"ranking": 3,
-		"slug": "jakeashacks"
+		"slug": "ahmadnagy",
+		"uri": "https://ahmadnagy.github.io"
 	},
 	{
-		"uri": "https://captinc.me/",
 		"ranking": 3,
-		"slug": "captinc"
+		"slug": "aids",
+		"uri": "https://jakeai.github.io"
 	},
 	{
-		"uri": "https://opa334.github.io/",
-		"ranking": 2,
-		"slug": "opa334"
-	},
-	{
-		"uri": "https://repo.menushka.ca/",
 		"ranking": 3,
-		"slug": "menushka"
+		"slug": "akeaswaran",
+		"uri": "https://akeaswaran.me/repo"
 	},
 	{
-		"uri": "https://nscake.github.io/",
-		"ranking": 2,
-		"slug": "nscake"
-	},
-	{
-		"uri": "https://repo.unlimapps.com/",
-		"ranking": 2,
-		"slug": "unlimapps"
-	},
-	{
-		"uri": "http://limneos.net/repo/",
-		"ranking": 2,
-		"slug": "limneos"
-	},
-	{
-		"uri": "https://build.frida.re/",
 		"ranking": 3,
-		"slug": "frida"
+		"slug": "alexbeals",
+		"uri": "https://cydia.alexbeals.com"
 	},
 	{
-		"uri": "https://repo.quiprr.dev/",
 		"ranking": 3,
-		"slug": "quiprr"
+		"slug": "alfhaily",
+		"uri": "https://apt.alfhaily.me"
 	},
 	{
-		"uri": "https://apt.alfhaily.me/",
 		"ranking": 3,
-		"slug": "alfhaily"
+		"slug": "aliencillo",
+		"uri": "https://aliencillo.github.io/repo"
 	},
 	{
-		"uri": "https://repo.daus.ch/",
 		"ranking": 3,
-		"slug": "dausch"
+		"slug": "alo",
+		"uri": "https://worksbybbs.github.io"
 	},
 	{
-		"uri": "https://repo.cpdigitaldarkroom.com/",
-		"slug": "cpdigitaldarkroom",
-		"ranking": 3
+		"ranking": 3,
+		"slug": "alombi",
+		"uri": "https://alombi.xyz/repo"
 	},
 	{
-		"uri": "https://repo.litten.love",
-		"slug": "litten",
-		"ranking": 3
+		"ranking": 3,
+		"slug": "alpha",
+		"uri": "https://thealphastream.github.io/repo"
 	},
 	{
-		"uri": "https://apptapp.me/repo",
+		"ranking": 3,
+		"slug": "antique-official",
+		"uri": "https://antiquedev.github.io"
+	},
+	{
+		"ranking": 3,
 		"slug": "apptapp",
-		"ranking": 3
+		"uri": "https://apptapp.me/repo"
 	},
 	{
-		"uri": "https://dgh0st.github.io",
-		"slug": "dgh0st",
-		"ranking": 2
+		"ranking": 3,
+		"slug": "arcetera",
+		"uri": "https://arcetera.github.io"
 	},
 	{
-		"uri": "https://skitty.xyz/repo/",
+		"ranking": 3,
+		"slug": "arthurdapaz",
+		"uri": "https://arthurdapaz.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "artsyskater-public-sitory",
+		"uri": "https://artsyskater.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "arx8x",
+		"uri": "https://apt.arx8x.net"
+	},
+	{
+		"ranking": 3,
+		"slug": "autotouch",
+		"uri": "https://apt.autotouch.net"
+	},
+	{
+		"ranking": 3,
+		"slug": "basepack",
+		"uri": "https://repo.basepack.co"
+	},
+	{
+		"dist": "stable",
 		"ranking": 2,
-		"slug": "skitty"
+		"slug": "bigboss",
+		"suite": "main",
+		"uri": "http://apt.thebigboss.org/repofiles/cydia"
 	},
 	{
-		"uri": "https://repo.icrazeios.com",
 		"ranking": 3,
-		"slug": "icraze"
+		"slug": "bluesymphony",
+		"uri": "https://bluesymphony.kirara.ca"
 	},
 	{
-		"uri": "https://repo.shuga.co",
 		"ranking": 3,
-		"slug": "shuga"
+		"slug": "bqrichards",
+		"uri": "https://bqrichards.github.io/repo"
 	},
 	{
-		"uri": "https://getzbra.com/repo",
+		"ranking": 3,
+		"slug": "brianleek",
+		"uri": "https://brianleek.me/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "bruno-andrade",
+		"uri": "https://brunonfl.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "c0ldra1n-beta",
+		"uri": "https://c0ldra1n.github.io/repo/beta"
+	},
+	{
+		"ranking": 3,
+		"slug": "c1d3r",
+		"uri": "https://c1d3r.com/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "cammmpwv",
+		"uri": "https://cammmpw.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "candoizo",
+		"uri": "https://ndoizo.ca"
+	},
+	{
+		"ranking": 3,
+		"slug": "capt-inc",
+		"uri": "https://captinc.me"
+	},
+	{
+		"ranking": 3,
+		"slug": "captinc",
+		"uri": "https://captinc.me"
+	},
+	{
+		"ranking": 3,
+		"slug": "cctgapp",
+		"uri": "https://cctgapp.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "ceadd",
+		"uri": "https://cydia.ceadd.ca"
+	},
+	{
+		"ranking": 3,
+		"slug": "cemck",
+		"uri": "https://cemck.github.io/repo"
+	},
+	{
+		"ranking": 1,
+		"slug": "chariz",
+		"uri": "https://repo.chariz.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "chickenmatt5",
+		"uri": "https://chickenmatt5.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "chikuwa",
+		"uri": "https://chikuwajb.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "chimera",
+		"uri": "https://repo.chimera.sh"
+	},
+	{
+		"ranking": 3,
+		"slug": "chrisosx",
+		"uri": "https://chrisosx.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "chronix",
+		"uri": "https://akachronix.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "cj81499",
+		"uri": "https://cj81499.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "classicxii",
+		"uri": "https://classicxiirepo.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "cobredev",
+		"uri": "https://repo.cobre.dev"
+	},
+	{
 		"ranking": 2,
-		"slug": "zebra"
+		"slug": "cokepokes",
+		"uri": "https://cokepokes.github.io"
 	},
 	{
-		"uri": "https://repo.getsileo.app",
-		"ranking": 2,
-		"slug": "sileo"
-	},
-	{
-		"uri": "https://evynw.github.io/",
 		"ranking": 3,
-		"slug": "evelyn"
+		"slug": "computerwhisperer",
+		"uri": "https://legitcomputerwhisperer.github.io"
 	},
 	{
-		"uri": "https://cokepokes.github.io/",
-		"ranking": 2,
-		"slug": "cokepokes"
-	},
-	{
-		"uri": "https://rpetri.ch/repo",
-		"ranking": 2,
-		"slug": "rpetrich"
-	},
-	{
-		"uri": "https://repo.twickd.com",
-		"ranking": 2,
-		"slug": "twickd"
-	},
-	{
-		"uri": "https://repo.co.kr/",
-		"ranking": 3,
-		"slug": "merona"
-	},
-	{
-		"uri": "https://sparkdev.me",
-		"ranking": 2,
-		"slug": "sparkdev"
-	},
-	{
-		"uri": "https://repo.daus.ch/",
-		"ranking": 3,
-		"slug": "dausch"
-	},
-	{
-		"uri": "https://cydia.ichitaso.com/",
-		"ranking": 3,
-		"slug": "itchiaso"
-	},
-	{
-		"uri": "https://creaturecoding.com/repo/",
-		"ranking": 3,
-		"slug": "creaturecoding"
-	},
-	{
-		"uri": "https://getdelta.co/",
-		"ranking": 3,
-		"slug": "delta"
-	},
-	{
-		"uri": "https://lacertosusrepo.github.io/",
-		"ranking": 3,
-		"slug": "lacertosus"
-	},
-	{
-		"uri": "https://leftyfl1p.github.io",
-		"ranking": 3,
-		"slug": "leftyfl1p"
-	},
-	{
-		"uri": "https://poomsmart.github.io/repo/",
-		"ranking": 2,
-		"slug": "poomsmart"
-	},
-	{
-		"uri": "https://r0wdrunner.github.io/repo/",
-		"ranking": 3,
-		"slug": "r0wdrunner"
-	},
-	{
-		"uri": "https://repo.dave1482.com",
 		"ranking": 4,
-		"slug": "dave1482"
+		"slug": "coolapple",
+		"uri": "https://teamcoolapple.github.io"
 	},
 	{
-		"uri": "https://repo.thireus.com",
 		"ranking": 3,
-		"slug": "thireus"
+		"slug": "coolbooter",
+		"uri": "https://coolbooter.com"
 	},
 	{
-		"uri": "https://repo.tihmstar.net",
+		"ranking": 3,
+		"slug": "cpdigitaldarkroom",
+		"uri": "https://repo.cpdigitaldarkroom.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "creaturecoding",
+		"uri": "https://creaturecoding.com/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "creaturesurvive",
+		"uri": "https://creaturesurvive.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "daniel-taylor",
+		"uri": "https://danieltaylor.tk/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "dansa",
+		"uri": "https://dansa.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "dausch",
+		"uri": "https://repo.daus.ch"
+	},
+	{
+		"ranking": 4,
+		"slug": "dave1482",
+		"uri": "https://repo.dave1482.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "dave1482-beta",
+		"uri": "https://beta.dave1482.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "davidgoldman",
+		"uri": "http://apt.golddavid.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "dbk1ng",
+		"uri": "https://dbk1ng.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "decimation",
+		"uri": "https://decimation.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "degrager",
+		"uri": "https://degrager.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "delta",
+		"uri": "https://getdelta.co"
+	},
+	{
+		"ranking": 3,
+		"slug": "devbug",
+		"uri": "https://devbug.me/apt"
+	},
+	{
 		"ranking": 2,
-		"slug": "tihmstar"
+		"slug": "dgh0st",
+		"uri": "https://dgh0st.github.io"
 	},
 	{
-		"uri": "https://shiftcmdk.github.io/repo/",
 		"ranking": 3,
-		"slug": "shiftcmdk"
+		"slug": "dimitar-nestorov",
+		"uri": "https://dimitarnestorov.com"
 	},
 	{
-		"uri": "https://beta.unlimapps.com",
 		"ranking": 3,
-		"slug": "unlimapps"
+		"slug": "dirtybeans",
+		"uri": "https://DirtyBeans.github.io"
 	},
 	{
-		"uri": "https://galacticdev.me",
+		"ranking": 3,
+		"slug": "djaovx",
+		"uri": "https://djaovx.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "dodgraphics",
+		"uri": "https://dodgraphics.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "doregon",
+		"uri": "https://apt.doregon.gq"
+	},
+	{
+		"ranking": 3,
+		"slug": "dpkg9510",
+		"uri": "https://dpkg9510.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "dtathemes",
+		"uri": "https://cydia.dtathemes.com/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "dunkston",
+		"uri": "https://dunkston.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "dynastic",
+		"uri": "https://repo.dynastic.co"
+	},
+	{
+		"ranking": 3,
+		"slug": "eliteiiiskillz",
+		"uri": "https://eliteiiiskillz.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "elor7824",
+		"uri": "https://elor7824.github.io"
+	},
+	{
+		"dist": "ios/1443.00",
+		"ranking": 2,
+		"slug": "elucubratus",
+		"suite": "main",
+		"uri": "https://apt.bingner.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "emojiport-fonts",
+		"uri": "https://vxbakerxv.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "eswick",
+		"uri": "https://eswick.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "ethanrdoesmc",
+		"uri": "https://ethanrdoesmc.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "ethn",
+		"uri": "https://nahtedetihw.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "euclidean",
+		"uri": "https://repo.minxteryt.xyz"
+	},
+	{
+		"ranking": 3,
+		"slug": "evan1s",
+		"uri": "https://repo.yfyf.fun"
+	},
+	{
+		"ranking": 3,
+		"slug": "evelyn",
+		"uri": "https://evynw.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "exqusic",
+		"uri": "https://exqusic.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "extigy",
+		"uri": "https://extigy.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "favware",
+		"uri": "https://favna.github.io/cydia"
+	},
+	{
+		"ranking": 3,
+		"slug": "fay",
+		"uri": "https://cydia.fay.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "festival",
+		"uri": "https://repo.festival.tf"
+	},
+	{
+		"ranking": 3,
+		"slug": "fidele007",
+		"uri": "https://fidele007.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "flashback",
+		"uri": "https://flashbackios.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "fouad",
+		"uri": "https://apt.fouadraheb.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "frida",
+		"uri": "https://build.frida.re"
+	},
+	{
+		"ranking": 3,
+		"slug": "frozen-penguin",
+		"uri": "https://frozen-penguin.github.io"
+	},
+	{
+		"ranking": 3,
 		"slug": "galactic",
-		"ranking": 3
+		"uri": "https://galacticdev.me"
+	},
+	{
+		"ranking": 3,
+		"slug": "galactic-dev",
+		"uri": "https://galacticdev.me"
+	},
+	{
+		"ranking": 3,
+		"slug": "gbasil",
+		"uri": "https://repo.gbasil.dev"
+	},
+	{
+		"ranking": 3,
+		"slug": "giulio",
+		"uri": "https://bart172.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "h6nry",
+		"uri": "https://h6nry.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "hacx",
+		"uri": "https://hacx.org/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "halo_michael’s-cydia",
+		"uri": "https://halo-michael.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "haoict",
+		"uri": "https://haoict.github.io/cydia"
+	},
+	{
+		"ranking": 3,
+		"slug": "henrikssonbrothers",
+		"uri": "https://henrikssonbrothers.com/cydia/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "hiko",
+		"uri": "https://hikohub.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "hiraku",
+		"uri": "https://cydia.hiraku.tw"
+	},
+	{
+		"ranking": 4,
+		"slug": "hqh",
+		"uri": "https://hqhrepo.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "htv123",
+		"uri": "https://apt.htv123.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "hudsongreen",
+		"uri": "https://repo.hudsongreen.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "iamjamieq",
+		"uri": "https://iamjamieq.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "iarrays",
+		"uri": "https://www.iarrays.com/apt"
+	},
+	{
+		"ranking": 4,
+		"slug": "ibitzedge",
+		"uri": "https://i-bitzedge.com/repo"
+	},
+	{
+		"ranking": 2,
+		"slug": "ibsoft",
+		"uri": "https://ib-soft.net/cydia"
+	},
+	{
+		"ranking": 3,
+		"slug": "icaughtu",
+		"uri": "https://www.icaughtuapp.com/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "ichitaso",
+		"uri": "https://ichitaso.com/apt"
+	},
+	{
+		"ranking": 3,
+		"slug": "icraze",
+		"uri": "https://repo.icrazeios.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "idevicehacked",
+		"uri": "https://idevicehacked.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "ididdy",
+		"uri": "https://ididdy.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "if0x",
+		"uri": "https://if0x.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "ikarwan",
+		"uri": "https://repo.ikghd.me"
+	},
+	{
+		"ranking": 3,
+		"slug": "ikeymonitor",
+		"uri": "https://ikeymonitor.com/apt"
+	},
+	{
+		"ranking": 3,
+		"slug": "ikilledappl3",
+		"uri": "https://ikilledappl3.com/opalbeta"
+	},
+	{
+		"ranking": 3,
+		"slug": "ios-setups",
+		"uri": "https://botlove.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "iosdesigner",
+		"uri": "https://iosdesigner.github.io/repo"
+	},
+	{
+		"ranking": 4,
+		"slug": "ioshacker",
+		"uri": "https://ioshacker.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "ipg-beta",
+		"uri": "https://cydia.invoxiplaygames.uk/beta"
+	},
+	{
+		"ranking": 3,
+		"slug": "isecureos",
+		"uri": "https://isecureos.idevicecentral.com/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "itchiaso",
+		"uri": "https://cydia.ichitaso.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "itrickzgg",
+		"uri": "https://itrickzgg.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "itsjafer",
+		"uri": "https://itsjafer.com/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "jailbreak365",
+		"uri": "https://jb365.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "jakeashacks",
+		"uri": "https://jakeashacks.net/cydia"
+	},
+	{
+		"ranking": 3,
+		"slug": "jakeshacks",
+		"uri": "https://jakeashacks.net/cydia"
+	},
+	{
+		"ranking": 3,
+		"slug": "jammytea",
+		"uri": "https://jammytea.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "jannikcrack",
+		"uri": "https://jannikcrack.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "jcsnider",
+		"uri": "https://jcsnider.github.io/CydiaRepo"
+	},
+	{
+		"ranking": 3,
+		"slug": "jjolano",
+		"uri": "https://ios.jjolano.me"
+	},
+	{
+		"ranking": 3,
+		"slug": "joedj-beta",
+		"uri": "https://cydia.joedj.net"
+	},
+	{
+		"ranking": 3,
+		"slug": "joey-gm",
+		"uri": "https://joey-gm.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "joker2gun",
+		"uri": "https://joker2gun.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "jonas-gessner",
+		"uri": "https://j-gessner.de/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "jontelang",
+		"uri": "https://jontelang.com/repo"
+	},
+	{
+		"ranking": 4,
+		"slug": "jordao-net",
+		"uri": "https://jordao-net.com/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "julioverne",
+		"uri": "https://julioverne.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "junesiphone",
+		"uri": "http://junesiphone.com/supersecret"
+	},
+	{
+		"ranking": 3,
+		"slug": "kaeru",
+		"uri": "https://apt.kaeru.world/ios"
+	},
+	{
+		"ranking": 2,
+		"slug": "karen",
+		"uri": "https://cydia.akemi.ai"
+	},
+	{
+		"ranking": 3,
+		"slug": "kaurux",
+		"uri": "https://karimo299.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "kharder69",
+		"uri": "https://kharder69.github.io/Repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "kid1carus",
+		"uri": "https://kid1carus.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "kingpuffdaddi",
+		"uri": "https://kingpuffdaddi.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "kjcracks",
+		"uri": "https://kjcracks.github.io/repo"
+	},
+	{
+		"ranking": 4,
+		"slug": "klashksa",
+		"uri": "https://klashksa.github.io/Y.A.D"
+	},
+	{
+		"ranking": 3,
+		"slug": "klutchkyle",
+		"uri": "https://klutchkyle.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "kodi",
+		"uri": "https://mirrors.kodi.tv/apt/ios"
+	},
+	{
+		"ranking": 3,
+		"slug": "kotyan",
+		"uri": "https://kotyanlife.info/cydiarepo"
+	},
+	{
+		"ranking": 3,
+		"slug": "kurt1277",
+		"uri": "https://kurt1277.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "kylefang",
+		"uri": "https://zhigang1992.github.io/cydia"
+	},
+	{
+		"ranking": 3,
+		"slug": "lacertosus",
+		"uri": "https://lacertosusrepo.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "lafond",
+		"uri": "https://apt.lafond.dev"
+	},
+	{
+		"ranking": 3,
+		"slug": "lavie",
+		"uri": "https://lgariv.github.io/LaVie"
+	},
+	{
+		"ranking": 3,
+		"slug": "leftyfl1p",
+		"uri": "https://leftyfl1p.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "leroy-b",
+		"uri": "https://leroy-b.github.io/home/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "lilac",
+		"uri": "https://lilacvibes.github.io"
+	},
+	{
+		"ranking": 2,
+		"slug": "limneos",
+		"uri": "http://limneos.net/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "lint",
+		"uri": "https://lint.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "litten",
+		"uri": "https://repo.litten.love"
+	},
+	{
+		"ranking": 3,
+		"slug": "luha",
+		"uri": "https://luharepo.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "luki120",
+		"uri": "https://luki120.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "lumartti",
+		"uri": "https://lumartti.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "manolz",
+		"uri": "https://manolzrepo.github.io/ios"
+	},
+	{
+		"ranking": 3,
+		"slug": "martinpham",
+		"uri": "https://martinpham.gitlab.io/cydia"
+	},
+	{
+		"ranking": 3,
+		"slug": "maskman",
+		"uri": "https://maskman007.github.io/pubg"
+	},
+	{
+		"ranking": 4,
+		"slug": "maskman007",
+		"uri": "https://maskman007.github.io/pubg_vip"
+	},
+	{
+		"ranking": 3,
+		"slug": "matchstic",
+		"uri": "https://incendo.ws/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "maxwell-dausch",
+		"uri": "https://repo.daus.ch"
+	},
+	{
+		"ranking": 3,
+		"slug": "mbo42",
+		"uri": "https://mbo42.com/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "mcapollo",
+		"uri": "https://mcapollo.github.io/Public"
+	},
+	{
+		"ranking": 3,
+		"slug": "mehul",
+		"uri": "https://mehulrao.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "menushka",
+		"uri": "https://repo.menushka.ca"
+	},
+	{
+		"ranking": 3,
+		"slug": "merona",
+		"uri": "https://repo.co.kr"
+	},
+	{
+		"ranking": 3,
+		"slug": "michel-barnich",
+		"uri": "https://repo.michelbarnich.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "midcoreboot",
+		"uri": "https://midcoreboot.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "midnightchips",
+		"uri": "https://repo.midnightchips.me"
+	},
+	{
+		"ranking": 3,
+		"slug": "miro-ppb",
+		"uri": "https://miroppb.com/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "miro92",
+		"uri": "https://miro92.com/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "misty",
+		"uri": "https://repo.misty.moe/apt"
+	},
+	{
+		"ranking": 3,
+		"slug": "mologie",
+		"uri": "https://mologie.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "mpg13",
+		"uri": "https://mpg13.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "myxxdev",
+		"uri": "https://myxxdev.github.io"
+	},
+	{
+		"ranking": 4,
+		"slug": "n-stalgia",
+		"uri": "https://n-stalgia.github.io/cydia"
+	},
+	{
+		"ranking": 3,
+		"slug": "n0mar",
+		"uri": "https://n0mar.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "nahum365",
+		"uri": "https://nahum365.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "nathanaccidentally",
+		"uri": "https://nathanaccidentally.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "nathanw",
+		"uri": "https://nathanwhit.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "nebula",
+		"uri": "https://apt.itsnebula.lol"
+	},
+	{
+		"ranking": 3,
+		"slug": "neso-security-labs",
+		"uri": "https://repo.nesolabs.de"
+	},
+	{
+		"ranking": 3,
+		"slug": "niceios",
+		"uri": "https://repo.niceios.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "nicho1asdev",
+		"uri": "https://nicho1asdev.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "nin0",
+		"uri": "https://n-i-n-0.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "ninji",
+		"uri": "https://cydia.wuffs.org"
+	},
+	{
+		"ranking": 3,
+		"slug": "noeliel",
+		"uri": "https://noeliel.com/repo"
+	},
+	{
+		"ranking": 2,
+		"slug": "nscake",
+		"uri": "https://nscake.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "ntdark",
+		"uri": "https://nikostito.github.io/NtdarkDebs"
+	},
+	{
+		"ranking": 3,
+		"slug": "nyansatan",
+		"uri": "https://nyansatan.github.io/apt"
+	},
+	{
+		"ranking": 3,
+		"slug": "nyuszika7h",
+		"uri": "https://repo.cadoth.net"
+	},
+	{
+		"ranking": 3,
+		"slug": "oatmealdome",
+		"uri": "https://cydia.oatmealdome.me"
+	},
+	{
+		"ranking": 3,
+		"slug": "onelesslagger",
+		"uri": "https://onelesslagger.github.io/repo"
+	},
+	{
+		"ranking": 2,
+		"slug": "opa334",
+		"uri": "https://opa334.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "orangebananaspy",
+		"uri": "https://repo.orangebananaspy.com"
+	},
+	{
+		"ranking": 4,
+		"slug": "othman",
+		"uri": "https://apt.othman.tech"
+	},
+	{
+		"ranking": 1,
+		"slug": "packix",
+		"uri": "https://repo.packix.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "pancakeufo",
+		"uri": "https://pancakeufo.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "parrotgeek",
+		"uri": "https://parrotgeek.com/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "parrotgeek-software",
+		"uri": "https://parrotgeek.net/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "perrycucko",
+		"uri": "https://perrycucko.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "pheux-sitory",
+		"uri": "https://pheuxdev.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "pikabu",
+		"uri": "https://pikabucydia.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "pillowbear",
+		"uri": "https://pillowbear.github.io"
+	},
+	{
+		"ranking": 2,
+		"slug": "poomsmart",
+		"uri": "https://poomsmart.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "postbox",
+		"uri": "https://postbox.news"
+	},
+	{
+		"ranking": 3,
+		"slug": "ppsspp",
+		"uri": "https://cydia.ppsspp.org"
+	},
+	{
+		"ranking": 3,
+		"slug": "pr0crustes",
+		"uri": "https://pr0crustes.github.io/repo"
+	},
+	{
+		"dist": "iphoneos-arm64/1700",
+		"ranking": 1,
+		"slug": "procursus",
+		"suite": "main",
+		"uri": "https://apt.procurs.us"
 	},
 	{
 		"aliases": [
 			"joe"
 		],
+		"ranking": 3,
 		"slug": "propr",
-		"uri": "https://proprdev.github.io/repo",
-		"ranking": 3
+		"uri": "https://proprdev.github.io/repo"
 	},
 	{
-		"uri": "https://ididdy.github.io/",
-		"slug": "ididdy",
-		"ranking": 3
+		"ranking": 3,
+		"slug": "quiprr",
+		"uri": "https://repo.quiprr.dev"
 	},
 	{
-		"uri": "https://jordao-net.com/repo/",
-		"slug": "jordao-net",
-		"ranking": 4
-	},
-	{
-		"uri": "https://roymakestuff.github.io/",
-		"slug": "roymakestuff",
-		"ranking": 4
-	},
-	{
-		"uri": "https://apt.25mao.com/",
-		"slug": "25mao",
-		"ranking": 3
-	},
-	{
-		"uri": "https://joker2gun.github.io/",
-		"slug": "joker2gun",
-		"ranking": 3
-	},
-	{
-		"uri": "https://halo-michael.github.io/repo/",
-		"slug": "halo_michael’s-cydia",
-		"ranking": 3
-	},
-	{
-		"uri": "https://apt.othman.tech/",
-		"slug": "othman",
-		"ranking": 4
-	},
-	{
-		"uri": "https://n-i-n-0.github.io/repo/",
-		"slug": "nin0",
-		"ranking": 3
-	},
-	{
-		"uri": "https://ndoizo.ca/",
-		"slug": "candoizo",
-		"ranking": 3
-	},
-	{
-		"uri": "https://apt.htv123.com/",
-		"slug": "htv123",
-		"ranking": 3
-	},
-	{
-		"uri": "https://apt.tinyapps.cn/",
-		"slug": "tinyapps",
-		"ranking": 3
-	},
-	{
-		"uri": "https://parrotgeek.net/repo/",
-		"slug": "parrotgeek-software",
-		"ranking": 3
-	},
-	{
-		"uri": "https://incendo.ws/repo/",
-		"slug": "matchstic",
-		"ranking": 3
-	},
-	{
-		"uri": "https://antiquedev.github.io/",
-		"slug": "antique-official",
-		"ranking": 3
-	},
-	{
-		"uri": "https://nyansatan.github.io/apt/",
-		"slug": "nyansatan",
-		"ranking": 3
-	},
-	{
-		"uri": "https://kotyanlife.info/cydiarepo/",
-		"slug": "kotyan",
-		"ranking": 3
-	},
-	{
-		"uri": "https://chrisosx.github.io/",
-		"slug": "chrisosx",
-		"ranking": 3
-	},
-	{
-		"uri": "https://sutuplus.github.io/repo/",
-		"slug": "sutuplus",
-		"ranking": 3
-	},
-	{
-		"uri": "https://jontelang.com/repo/",
-		"slug": "jontelang",
-		"ranking": 3
-	},
-	{
-		"uri": "https://eliteiiiskillz.github.io/",
-		"slug": "eliteiiiskillz",
-		"ranking": 3
-	},
-	{
-		"uri": "https://maskman007.github.io/pubg/",
-		"slug": "maskman",
-		"ranking": 3
-	},
-	{
-		"uri": "https://akachronix.github.io/repo/",
-		"slug": "chronix",
-		"ranking": 3
-	},
-	{
-		"uri": "https://supermamon.github.io/repo/",
-		"slug": "supermamon",
-		"ranking": 3
-	},
-	{
-		"uri": "https://starwarsfan2099.github.io/",
-		"slug": "starwarsfan2099",
-		"ranking": 3
-	},
-	{
-		"uri": "https://hqhrepo.github.io/",
-		"slug": "hqh",
-		"ranking": 4
-	},
-	{
-		"uri": "https://degrager.github.io/",
-		"slug": "degrager",
-		"ranking": 3
-	},
-	{
-		"uri": "https://uroboro.github.io/repo/",
-		"slug": "uroboro",
-		"ranking": 3
-	},
-	{
-		"uri": "https://chikuwajb.github.io/repo/",
-		"slug": "chikuwa",
-		"ranking": 3
-	},
-	{
-		"uri": "https://tiger-repo.github.io/Tiger/",
-		"slug": "tiger",
-		"ranking": 4
-	},
-	{
-		"uri": "https://apt.saadat.dev/",
-		"slug": "saadat",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.tjg.io/",
-		"slug": "tjg",
-		"ranking": 3
-	},
-	{
-		"uri": "https://www.iarrays.com/apt/",
-		"slug": "iarrays",
-		"ranking": 3
-	},
-	{
-		"uri": "https://h6nry.github.io/repo/",
-		"slug": "h6nry",
-		"ranking": 3
-	},
-	{
-		"uri": "https://ioshacker.github.io/",
-		"slug": "ioshacker",
-		"ranking": 4
-	},
-	{
-		"uri": "https://pillowbear.github.io/",
-		"slug": "pillowbear",
-		"ranking": 3
-	},
-	{
-		"uri": "https://lint.github.io/repo/",
-		"slug": "lint",
-		"ranking": 3
-	},
-	{
-		"uri": "https://iamjamieq.github.io/repo/",
-		"slug": "iamjamieq",
-		"ranking": 3
-	},
-	{
-		"uri": "https://hikohub.github.io/",
-		"slug": "hiko",
-		"ranking": 3
-	},
-	{
-		"uri": "https://agentepsilon.github.io/repo/",
-		"slug": "agentepsilon",
-		"ranking": 3
-	},
-	{
-		"uri": "https://stavros.xyz/cydia/",
-		"slug": "stravros",
-		"ranking": 3
-	},
-	{
-		"uri": "https://adventureowl.github.io/",
-		"slug": "adventureowl",
-		"ranking": 3
-	},
-	{
-		"uri": "https://mbo42.com/repo/",
-		"slug": "mbo42",
-		"ranking": 3
-	},
-	{
-		"uri": "https://kid1carus.github.io/repo/",
-		"slug": "kid1carus",
-		"ranking": 3
-	},
-	{
-		"uri": "https://klashksa.github.io/Y.A.D/",
-		"slug": "klashksa",
-		"ranking": 4
-	},
-	{
-		"uri": "https://djaovx.github.io/repo/",
-		"slug": "djaovx",
-		"ranking": 3
-	},
-	{
-		"uri": "https://nahum365.github.io/",
-		"slug": "nahum365",
-		"ranking": 3
-	},
-	{
-		"uri": "https://virenmohindra.me/",
-		"slug": "viren",
-		"ranking": 4
-	},
-	{
-		"uri": "https://elor7824.github.io/",
-		"slug": "elor7824",
-		"ranking": 3
-	},
-	{
-		"uri": "https://maskman007.github.io/pubg_vip/",
-		"slug": "maskman007",
-		"ranking": 4
-	},
-	{
-		"uri": "https://apt.touchsprite.com/",
-		"slug": "touchsprite",
-		"ranking": 3
-	},
-	{
-		"uri": "https://luharepo.github.io/repo/",
-		"slug": "luha",
-		"ranking": 3
-	},
-	{
-		"uri": "https://siriusdev.me/privrepo/",
-		"slug": "siriusdev",
-		"ranking": 3
-	},
-	{
-		"uri": "https://mehulrao.github.io/",
-		"slug": "mehul",
-		"ranking": 3
-	},
-	{
-		"uri": "https://aatoz.github.io/Sileo/",
-		"slug": "aatoz",
-		"ranking": 3
-	},
-	{
-		"uri": "https://thenatis.github.io/repo/",
-		"slug": "thenatis",
-		"ranking": 3
-	},
-	{
-		"uri": "https://tr1fecta-7.github.io/repo/",
-		"slug": "tr1fecta",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.michelbarnich.com/",
-		"slug": "michel-barnich",
-		"ranking": 3
-	},
-	{
-		"uri": "https://c0ldra1n.github.io/repo/beta/",
-		"slug": "c0ldra1n-beta",
-		"ranking": 3
-	},
-	{
-		"uri": "https://pancakeufo.github.io/repo/",
-		"slug": "pancakeufo",
-		"ranking": 3
-	},
-	{
-		"uri": "https://i-bitzedge.com/repo/",
-		"slug": "ibitzedge",
-		"ranking": 4
-	},
-	{
-		"uri": "https://kharder69.github.io/Repo/",
-		"slug": "kharder69",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.hudsongreen.com/",
-		"slug": "hudsongreen",
-		"ranking": 3
-	},
-	{
-		"uri": "https://apt.absidue.me/",
-		"slug": "absidue",
-		"ranking": 3
-	},
-	{
-		"uri": "https://tweakality.github.io/repo/",
-		"slug": "tweakality",
-		"ranking": 3
-	},
-	{
-		"uri": "https://rrnmrnm.github.io/",
-		"slug": "rrnmrnm",
-		"ranking": 3
-	},
-	{
-		"uri": "https://n0mar.github.io/",
-		"slug": "n0mar",
-		"ranking": 3
-	},
-	{
-		"uri": "https://ichitaso.com/apt/",
-		"slug": "ichitaso",
-		"ranking": 3
-	},
-	{
-		"uri": "https://stable.szifon.com/",
-		"slug": "szifon",
-		"ranking": 3
-	},
-	{
-		"uri": "https://rikumi.github.io/repo/",
-		"slug": "rikumi",
-		"ranking": 3
-	},
-	{
-		"uri": "https://apt.kaeru.world/ios/",
-		"slug": "kaeru",
-		"ranking": 3
-	},
-	{
-		"uri": "https://rotanakpiseth.github.io/",
-		"slug": "rotanakpiseth",
-		"ranking": 4
-	},
-	{
-		"uri": "https://jannikcrack.github.io/",
-		"slug": "jannikcrack",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cctgapp.github.io/repo/",
-		"slug": "cctgapp",
-		"ranking": 3
-	},
-	{
-		"uri": "https://n-stalgia.github.io/cydia/",
-		"slug": "n-stalgia",
-		"ranking": 4
-	},
-	{
-		"uri": "https://iosdesigner.github.io/repo/",
-		"slug": "iosdesigner",
-		"ranking": 3
-	},
-	{
-		"uri": "https://teamcoolapple.github.io/",
-		"slug": "coolapple",
-		"ranking": 4
-	},
-	{
-		"uri": "https://tweakyx.github.io/",
-		"slug": "tweakyx",
-		"ranking": 4
-	},
-	{
-		"uri": "https://idevicehacked.github.io/",
-		"slug": "idevicehacked",
-		"ranking": 3
-	},
-	{
-		"uri": "https://akeaswaran.me/repo/",
-		"slug": "akeaswaran",
-		"ranking": 3
-	},
-	{
-		"uri": "https://dodgraphics.github.io/",
-		"slug": "dodgraphics",
-		"ranking": 3
-	},
-	{
-		"uri": "https://kurt1277.github.io/",
-		"slug": "kurt1277",
-		"ranking": 3
-	},
-	{
-		"uri": "https://ikeymonitor.com/apt/",
-		"slug": "ikeymonitor",
-		"ranking": 3
-	},
-	{
-		"uri": "https://ikilledappl3.com/opalbeta/",
-		"slug": "ikilledappl3",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.twickd.com",
-		"slug": "twickd",
-		"ranking": 2
-	},
-	{
-		"uri": "https://www.yourepo.com/",
-		"slug": "yourepo",
-		"ranking": 3
-	},
-	{
-		"uri": "http://apt.thebigboss.org",
-		"slug": "bigboss",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.co.kr/",
-		"slug": "merona",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cydia.r333d.com/",
-		"slug": "r333d",
-		"ranking": 3
-	},
-	{
-		"uri": "https://yaypixxo.com/",
-		"slug": "yaypixxo'",
-		"ranking": 3
-	},
-	{
-		"uri": "https://affimbr.github.io/repo/",
-		"slug": "affimbr",
-		"ranking": 3
-	},
-	{
-		"uri": "https://ahmadnagy.github.io/",
-		"slug": "ahmadnagy",
-		"ranking": 3
-	},
-	{
-		"uri": "https://apt.alfhaily.me/",
-		"slug": "alfhaily",
-		"ranking": 3
-	},
-	{
-		"uri": "https://apt.iarrays.com/",
-		"slug": "iarrays",
-		"ranking": 3
-	},
-	{
-		"uri": "https://apt.securarepo.io/",
-		"slug": "secura",
-		"ranking": 3
-	},
-	{
-		"uri": "https://apt.steverolfe.com/",
-		"slug": "steverolfe",
-		"ranking": 3
-	},
-	{
-		"uri": "https://arcetera.github.io/",
-		"slug": "arcetera",
-		"ranking": 3
-	},
-	{
-		"uri": "https://beta.dave1482.com/",
-		"slug": "dave1482-beta",
-		"ranking": 3
-	},
-	{
-		"uri": "https://c1d3r.com/repo/",
-		"slug": "c1d3r",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cammmpw.github.io/repo/",
-		"slug": "cammmpwv",
-		"ranking": 3
-	},
-	{
-		"uri": "https://coolbooter.com/",
-		"slug": "coolbooter",
-		"ranking": 3
-	},
-	{
-		"uri": "https://creaturecoding.com/repo/",
-		"slug": "creaturecoding",
-		"ranking": 3
-	},
-	{
-		"uri": "https://creaturesurvive.github.io/",
-		"slug": "creaturesurvive",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cydia.alexbeals.com/",
-		"slug": "alexbeals",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cydia.dtathemes.com/repo/",
-		"slug": "dtathemes",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cydia.hiraku.tw/",
-		"slug": "hiraku",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cydia.ichitaso.com/",
-		"slug": "ichitaso",
-		"ranking": 3
-	},
-	{
-		"uri": "https://danieltaylor.tk/repo/",
-		"slug": "daniel-taylor",
-		"ranking": 3
-	},
-	{
-		"uri": "https://dansa.github.io/",
-		"slug": "dansa",
-		"ranking": 3
-	},
-	{
-		"uri": "https://devbug.me/apt/",
-		"slug": "devbug",
-		"ranking": 3
-	},
-	{
-		"uri": "https://dpkg9510.github.io/",
-		"slug": "dpkg9510",
-		"ranking": 3
-	},
-	{
-		"uri": "https://extigy.github.io/repo/",
-		"slug": "extigy",
-		"ranking": 3
-	},
-	{
-		"uri": "https://fidele007.github.io/",
-		"slug": "fidele007",
-		"ranking": 3
-	},
-	{
-		"uri": "https://frozen-penguin.github.io/",
-		"slug": "frozen-penguin",
-		"ranking": 3
-	},
-	{
-		"uri": "https://hacx.org/repo/",
-		"slug": "hacx",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.icrazeios.com/",
-		"slug": "icraze",
-		"ranking": 3
-	},
-	{
-		"uri": "https://if0x.github.io/",
-		"slug": "if0x",
-		"ranking": 3
-	},
-	{
-		"uri": "https://itrickzgg.github.io/",
-		"slug": "itrickzgg",
-		"ranking": 3
-	},
-	{
-		"uri": "https://j-gessner.de/repo/",
-		"slug": "jonas-gessner",
-		"ranking": 3
-	},
-	{
-		"uri": "https://karimo299.github.io/repo/",
-		"slug": "kaurux",
-		"ranking": 3
-	},
-	{
-		"uri": "https://kjcracks.github.io/repo/",
-		"slug": "kjcracks",
-		"ranking": 3
-	},
-	{
-		"uri": "https://lacertosusrepo.github.io/",
-		"slug": "lacertosus",
-		"ranking": 3
-	},
-	{
-		"uri": "https://leftyfl1p.github.io/",
-		"slug": "leftyfl1p",
-		"ranking": 3
-	},
-	{
-		"uri": "https://legitcomputerwhisperer.github.io/",
-		"slug": "computerwhisperer",
-		"ranking": 3
-	},
-	{
-		"uri": "https://leroy-b.github.io/home/repo/",
-		"slug": "leroy-b",
-		"ranking": 3
-	},
-	{
-		"uri": "https://lumartti.github.io/",
-		"slug": "lumartti",
-		"ranking": 3
-	},
-	{
-		"uri": "https://miroppb.com/repo/",
-		"slug": "miro-ppb",
-		"ranking": 3
-	},
-	{
-		"uri": "https://mirrors.kodi.tv/apt/ios/",
-		"slug": "kodi",
-		"ranking": 3
-	},
-	{
-		"uri": "https://mpg13.github.io/repo/",
-		"slug": "mpg13",
-		"ranking": 3
-	},
-	{
-		"uri": "https://noeliel.com/repo/",
-		"slug": "noeliel",
-		"ranking": 3
-	},
-	{
-		"uri": "https://pikabucydia.github.io/",
-		"slug": "pikabu",
-		"ranking": 3
-	},
-	{
-		"uri": "http://repo.qwertyuiop1379.com/",
+		"ranking": 3,
 		"slug": "qwertyuiop1379",
-		"ranking": 3
+		"uri": "http://repo.qwertyuiop1379.com"
 	},
 	{
-		"uri": "https://r0wdrunner.github.io/repo/",
+		"ranking": 3,
 		"slug": "r0wdrunner",
-		"ranking": 3
+		"uri": "https://r0wdrunner.github.io/repo"
 	},
 	{
-		"uri": "https://ramenrepo.github.io/",
+		"ranking": 3,
+		"slug": "r333d",
+		"uri": "https://cydia.r333d.com"
+	},
+	{
+		"ranking": 3,
 		"slug": "ramen",
-		"ranking": 3
+		"uri": "https://ramenrepo.github.io"
 	},
 	{
-		"uri": "https://reddestdream.github.io/",
-		"slug": "reddestdream",
-		"ranking": 3
-	},
-	{
-		"uri": "https://redzrex.github.io/",
-		"slug": "redzrex",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.daus.ch/",
-		"slug": "maxwell-dausch",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.dave1482.com/",
-		"slug": "dave1482",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.midnightchips.me/",
-		"slug": "midnightchips",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.nesolabs.de/",
-		"slug": "neso-security-labs",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.thireus.com/",
-		"slug": "thireus",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.tihmstar.net/",
-		"slug": "tihmstar-beta",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.tylercasson.com/",
-		"slug": "tyler-casson",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.winneon.moe/",
-		"slug": "winneon",
-		"ranking": 3
-	},
-	{
-		"uri": "https://s0mecoder.github.io/repo/",
-		"slug": "s0mecoder",
-		"ranking": 3
-	},
-	{
-		"uri": "https://samgisaninja.github.io/",
-		"slug": "samgisaninja",
-		"ranking": 3
-	},
-	{
-		"uri": "https://seatanners.github.io/repo/",
-		"slug": "seatanners",
-		"ranking": 3
-	},
-	{
-		"uri": "https://shade-zepheri.github.io/",
-		"slug": "shade-zepheri",
-		"ranking": 3
-	},
-	{
-		"uri": "https://shiftcmdk.github.io/repo/",
-		"slug": "shiftcmdk",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.festival.tf/",
-		"slug": "festival",
-		"ranking": 3
-	},
-	{
-		"uri": "https://tdmd.github.io/",
-		"slug": "tdmd",
-		"ranking": 3
-	},
-	{
-		"uri": "https://tigisoftware.com/cydia/",
-		"slug": "tigi-software",
-		"ranking": 3
-	},
-	{
-		"uri": "https://virenmohindra.github.io/",
-		"slug": "virenmohindra",
-		"ranking": 3
-	},
-	{
-		"uri": "https://williammuff.github.io/repo/",
-		"slug": "william-muff",
-		"ranking": 3
-	},
-	{
-		"uri": "https://wolfposd.github.io/",
-		"slug": "wolfposd",
-		"ranking": 3
-	},
-	{
-		"uri": "https://yungspecht.github.io/",
-		"slug": "yungspecht",
-		"ranking": 3
-	},
-	{
-		"uri": "https://jammytea.github.io/",
-		"slug": "jammytea",
-		"ranking": 3
-	},
-	{
-		"uri": "https://udevsharold.github.io/repo/",
-		"slug": "udevs",
-		"ranking": 3
-	},
-	{
-		"uri": "https://c1d3r.com/beta/",
-		"slug": "c1d3r",
-		"ranking": 3
-	},
-	{
-		"uri": "https://joey-gm.github.io/",
-		"slug": "joey-gm",
-		"ranking": 3
-	},
-	{
-		"uri": "https://wiety.github.io/cydia/",
-		"slug": "wiety",
-		"ranking": 3
-	},
-	{
-		"uri": "https://wizage.github.io/repo/",
-		"slug": "wizages",
-		"ranking": 3
-	},
-	{
-		"uri": "https://dgh0st.github.io/",
-		"slug": "dgh0st",
-		"ranking": 3
-	},
-	{
-		"uri": "https://ios.jjolano.me/",
-		"slug": "jjolano",
-		"ranking": 3
-	},
-	{
-		"uri": "https://jakeashacks.net/cydia/",
-		"slug": "jakeshacks",
-		"ranking": 3
-	},
-	{
-		"uri": "https://apt.arx8x.net/",
-		"slug": "arx8x",
-		"ranking": 3
-	},
-	{
-		"uri": "https://beta.unlimapps.com/",
-		"slug": "unlimapps",
-		"ranking": 3
-	},
-	{
-		"uri": "https://skylarmccauley.xyz/hacked-repo/",
-		"slug": "skylar-mccauley",
-		"ranking": 3
-	},
-	{
-		"uri": "https://kingpuffdaddi.github.io/",
-		"slug": "kingpuffdaddi",
-		"ranking": 3
-	},
-	{
-		"uri": "https://henrikssonbrothers.com/cydia/repo/",
-		"slug": "henrikssonbrothers",
-		"ranking": 3
-	},
-	{
-		"uri": "https://itsjafer.com/repo/",
-		"slug": "itsjafer",
-		"ranking": 3
-	},
-	{
-		"uri": "https://jb365.github.io/",
-		"slug": "jailbreak365",
-		"ranking": 3
-	},
-	{
-		"uri": "https://lilacvibes.github.io/",
-		"slug": "lilac",
-		"ranking": 3
-	},
-	{
-		"uri": "https://trentjk.github.io/",
-		"slug": "trentjk",
-		"ranking": 3
-	},
-	{
-		"uri": "https://captinc.me/",
-		"slug": "capt-inc",
-		"ranking": 3
-	},
-	{
-		"uri": "https://nicho1asdev.github.io/repo/",
-		"slug": "nicho1asdev",
-		"ranking": 3
-	},
-	{
-		"uri": "https://www.icaughtuapp.com/repo/",
-		"slug": "icaughtu",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.basepack.co/",
-		"slug": "basepack",
-		"ranking": 3
-	},
-	{
-		"uri": "https://synnygr.dev/repo/",
-		"slug": "synnygr",
-		"ranking": 3
-	},
-	{
-		"uri": "https://postbox.news",
-		"slug": "postbox",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.cadoth.net/",
-		"slug": "nyuszika7h",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.minxteryt.xyz/",
-		"slug": "euclidean",
-		"ranking": 3
-	},
-	{
-		"uri": "https://thealphastream.github.io/repo",
-		"slug": "alpha",
-		"ranking": 3
-	},
-	{
-		"uri": "https://dimitarnestorov.com/",
-		"slug": "dimitar-nestorov",
-		"ranking": 3
-	},
-	{
-		"uri": "https://galacticdev.me/",
-		"slug": "galactic-dev",
-		"ranking": 3
-	},
-	{
-		"uri": "https://haoict.github.io/cydia/",
-		"slug": "haoict",
-		"ranking": 3
-	},
-	{
-		"uri": "https://ftp.sudhip.com/jbrepo",
-		"slug": "sudhip",
-		"ranking": 3
-	},
-	{
-		"uri": "https://isecureos.idevicecentral.com/repo",
-		"slug": "isecureos",
-		"ranking": 3
-	},
-	{
-		"uri": "https://alombi.xyz/repo/",
-		"slug": "alombi",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.getsileo.app",
-		"slug": "sileo",
-		"ranking": 3
-	},
-	{
-		"uri": "https://myxxdev.github.io/",
-		"slug": "myxxdev",
-		"ranking": 3
-	},
-	{
-		"uri": "https://apt.doregon.gq",
-		"slug": "doregon",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.gbasil.dev",
-		"slug": "gbasil",
-		"ranking": 3
-	},
-	{
-		"uri": "https://nahtedetihw.github.io/",
-		"slug": "ethn",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.panties.moe",
-		"slug": "zoey",
-		"ranking": 3
-	},
-	{
-		"uri": "https://luki120.github.io/",
-		"slug": "luki120",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.stkc.win",
-		"slug": "stkc",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.misty.moe/apt",
-		"slug": "misty",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.xyaman.xyz/",
-		"slug": "xyaman",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.ikghd.me",
-		"slug": "ikarwan",
-		"ranking": 3
-	},
-	{
-		"uri": "https://apt.itsnebula.lol",
-		"slug": "nebula",
-		"ranking": 3
-	},
-	{
-		"uri": "http://repo.lauren.sh/",
-		"slug": "ren7995",
-		"ranking": 3
-	},
-	{
-		"uri": "https://worksbybbs.github.io/",
-		"slug": "alo",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cydia.ceadd.ca/",
-		"slug": "ceadd",
-		"ranking": 3
-	},
-	{
-		"uri": "https://randomblock1.github.io/repo/",
+		"ranking": 3,
 		"slug": "randomblock1",
-		"ranking": 3
+		"uri": "https://randomblock1.github.io/repo"
 	},
 	{
-		"uri": "https://rishanan.github.io/",
-		"slug": "rishanan",
-		"ranking": 3
-	},
-	{
-		"uri": "https://lgariv.github.io/LaVie/",
-		"slug": "lavie",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.yfyf.fun/",
-		"slug": "evan1s",
-		"ranking": 3
-	},
-	{
-		"uri": "https://toxicappl3inc.github.io/repo/",
-		"slug": "toxicappl3",
-		"ranking": 3
-	},
-	{
-		"uri": "https://captinc.me/",
-		"slug": "capt-inc",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cydia.tapsharp.com/",
-		"slug": "tapsharp",
-		"ranking": 3
-	},
-	{
-		"uri": "https://apt.fouadraheb.com/",
-		"slug": "fouad",
-		"ranking": 3
-	},
-	{
-		"uri": "https://obumbravit.github.io/0SRepo/",
-		"slug": "0ver$hadowed",
-		"ranking": 3
-	},
-	{
-		"uri": "https://the-casle.github.io/cydia/",
-		"slug": "the-casle-beta",
-		"ranking": 3
-	},
-	{
-		"uri": "https://thomz07.github.io/",
-		"slug": "thomz",
-		"ranking": 3
-	},
-	{
-		"uri": "https://smokin1337.github.io/",
-		"slug": "smokin1337",
-		"ranking": 3
-	},
-	{
-		"uri": "https://pheuxdev.github.io/repo/",
-		"slug": "pheux-sitory",
-		"ranking": 3
-	},
-	{
-		"uri": "https://onelesslagger.github.io/repo/",
-		"slug": "onelesslagger",
-		"ranking": 3
-	},
-	{
-		"uri": "https://opa334.github.io/",
-		"slug": "opa334",
-		"ranking": 3
-	},
-	{
-		"uri": "https://sn50repo.github.io/",
-		"slug": "sn50",
-		"ranking": 3
-	},
-	{
-		"uri": "https://nathanwhit.github.io/repo/",
-		"slug": "nathanw",
-		"ranking": 3
-	},
-	{
-		"uri": "https://miro92.com/repo/",
-		"slug": "miro92",
-		"ranking": 3
-	},
-	{
-		"uri": "https://yulkytulky.com",
-		"slug": "yulkytulky",
-		"ranking": 3
-	},
-	{
-		"uri": "https://dbk1ng.github.io/",
-		"slug": "dbk1ng",
-		"ranking": 3
-	},
-	{
-		"uri": "https://zeekforit.github.io/",
-		"slug": "zeek",
-		"ranking": 3
-	},
-	{
-		"uri": "https://yp261.github.io/repo/",
-		"slug": "yp261",
-		"ranking": 3
-	},
-	{
-		"uri": "https://bqrichards.github.io/repo/",
-		"slug": "bqrichards",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cydia.oatmealdome.me/",
-		"slug": "oatmealdome",
-		"ranking": 3
-	},
-	{
-		"uri": "https://sammydentino.github.io/repo/",
-		"slug": "sammy",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.menushka.ca/",
-		"slug": "menushka",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.niceios.com/",
-		"slug": "niceios",
-		"ranking": 3
-	},
-	{
-		"uri": "https://shepgoba.github.io/",
-		"slug": "shepgoba",
-		"ranking": 3
-	},
-	{
-		"uri": "https://nikostito.github.io/NtdarkDebs/",
-		"slug": "ntdark",
-		"ranking": 3
-	},
-	{
-		"uri": "https://ios.tweaks.fun/",
-		"slug": "tweaksfun",
-		"ranking": 3
-	},
-	{
-		"uri": "https://apt.tale.me/",
-		"slug": "tale",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cydia.rob311.com/repo/",
-		"slug": "rob311",
-		"ranking": 3
-	},
-	{
-		"uri": "https://typ0s2d10.appspot.com/repo/",
-		"slug": "typ0s2d10",
-		"ranking": 3
-	},
-	{
-		"uri": "https://mcapollo.github.io/Public/",
-		"slug": "mcapollo",
-		"ranking": 3
-	},
-	{
-		"uri": "http://apt.golddavid.com/",
-		"slug": "davidgoldman",
-		"ranking": 3
-	},
-	{
-		"uri": "http://tateu.net/repo/",
-		"slug": "tateu",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cydia.joedj.net/",
-		"slug": "joedj-beta",
-		"ranking": 3
-	},
-	{
-		"uri": "https://brunonfl.github.io/",
-		"slug": "bruno-andrade",
-		"ranking": 3
-	},
-	{
-		"uri": "https://decimation.github.io/",
-		"slug": "decimation",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.rbtdigital.com/",
+		"ranking": 3,
 		"slug": "rbtdigital",
-		"ranking": 3
+		"uri": "https://repo.rbtdigital.com"
 	},
 	{
-		"uri": "https://stek29.rocks/cyrepo/",
-		"slug": "stek29",
-		"ranking": 3
+		"ranking": 3,
+		"slug": "reddestdream",
+		"uri": "https://reddestdream.github.io"
 	},
 	{
-		"uri": "https://rudikelly.github.io/repo/",
-		"slug": "rudikelly",
-		"ranking": 3
+		"ranking": 3,
+		"slug": "redzrex",
+		"uri": "https://redzrex.github.io"
 	},
 	{
-		"uri": "https://parrotgeek.com/repo/",
-		"slug": "parrotgeek",
-		"ranking": 3
-	},
-	{
-		"uri": "https://jakeai.github.io/",
-		"slug": "aids",
-		"ranking": 3
-	},
-	{
-		"uri": "https://flashbackios.github.io/",
-		"slug": "flashback",
-		"ranking": 3
-	},
-	{
-		"uri": "https://arthurdapaz.github.io/",
-		"slug": "arthurdapaz",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cj81499.github.io/repo/",
-		"slug": "cj81499",
-		"ranking": 3
-	},
-	{
-		"uri": "https://dunkston.github.io/repo/",
-		"slug": "dunkston",
-		"ranking": 3
-	},
-	{
-		"uri": "https://aliencillo.github.io/repo/",
-		"slug": "aliencillo",
-		"ranking": 3
-	},
-	{
-		"uri": "https://eswick.github.io/",
-		"slug": "eswick",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.yobur.xyz/",
-		"slug": "yobur",
-		"ranking": 3
-	},
-	{
-		"uri": "https://apt.autotouch.net/",
-		"slug": "autotouch",
-		"ranking": 3
-	},
-	{
-		"uri": "https://jcsnider.github.io/CydiaRepo/",
-		"slug": "jcsnider",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cydia.akemi.ai/webstack/",
-		"slug": "webstack",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cemck.github.io/repo/",
-		"slug": "cemck",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cydia.wuffs.org/",
-		"slug": "ninji",
-		"ranking": 3
-	},
-	{
-		"uri": "https://aeonlucid.com/cydia/",
-		"slug": "aeonlucid",
-		"ranking": 3
-	},
-	{
-		"uri": "https://DirtyBeans.github.io/",
-		"slug": "dirtybeans",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cydia.invoxiplaygames.uk/beta/",
-		"slug": "ipg-beta",
-		"ranking": 3
-	},
-	{
-		"uri": "https://nscake.github.io/",
-		"slug": "nscake",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.cobre.dev/",
-		"slug": "cobredev",
-		"ranking": 3
-	},
-	{
-		"uri": "https://xmb5.github.io/cydia/",
-		"slug": "xmb5",
-		"ranking": 3
-	},
-	{
-		"uri": "https://bluesymphony.kirara.ca/",
-		"slug": "bluesymphony",
-		"ranking": 3
-	},
-	{
-		"uri": "https://vxbakerxv.github.io/repo/",
-		"slug": "emojiport-fonts",
-		"ranking": 3
-	},
-	{
-		"uri": "https://martinpham.gitlab.io/cydia/",
-		"slug": "martinpham",
-		"ranking": 3
-	},
-	{
-		"uri": "https://nathanaccidentally.github.io/",
-		"slug": "nathanaccidentally",
-		"ranking": 3
-	},
-	{
-		"uri": "https://perrycucko.github.io/",
-		"slug": "perrycucko",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cydia.ppsspp.org/",
-		"slug": "ppsspp",
-		"ranking": 3
-	},
-	{
-		"uri": "https://cydia.fay.io/",
-		"slug": "fay",
-		"ranking": 3
-	},
-	{
-		"uri": "https://skyfrost.github.io/repo/",
-		"slug": "skyfrost-beta",
-		"ranking": 3
-	},
-	{
-		"uri": "https://yazeedot.github.io/",
-		"slug": "zezblog",
-		"ranking": 3
-	},
-	{
-		"uri": "https://shaundegr8.github.io/",
-		"slug": "shaundegr8-beta",
-		"ranking": 3
-	},
-	{
-		"uri": "https://sn0wcooder.github.io/",
-		"slug": "sn0wcooder",
-		"ranking": 3
-	},
-	{
-		"uri": "https://midcoreboot.github.io/",
-		"slug": "midcoreboot",
-		"ranking": 3
-	},
-	{
-		"uri": "https://zhigang1992.github.io/cydia/",
-		"slug": "kylefang",
-		"ranking": 3
-	},
-	{
-		"uri": "https://saj0vie.github.io/",
-		"slug": "saj0vie",
-		"ranking": 3
-	},
-	{
-		"uri": "https://chickenmatt5.github.io/repo/",
-		"slug": "chickenmatt5",
-		"ranking": 3
-	},
-	{
-		"uri": "https://wynd07.com/r7/",
-		"slug": "wynd-beta",
-		"ranking": 3
-	},
-	{
-		"uri": "https://sarim.github.io/cydia/",
-		"slug": "sarim",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.orangebananaspy.com/",
-		"slug": "orangebananaspy",
-		"ranking": 3
-	},
-	{
-		"uri": "https://ridn.github.io/repo/",
-		"slug": "ridn-beta",
-		"ranking": 3
-	},
-	{
-		"uri": "https://repo.chimera.sh/",
-		"slug": "chimera",
-		"ranking": 3
-	},
-	{
-		"uri": "https://manolzrepo.github.io/ios/",
-		"slug": "manolz",
-		"ranking": 3
-	},
-	{
-		"uri": "https://mologie.github.io/repo/",
-		"slug": "mologie",
-		"ranking": 3
-	},
-	{
-		"uri": "https://bart172.github.io/repo/",
-		"slug": "giulio",
-		"ranking": 3
-	},
-	{
-		"uri": "https://remyla31.github.io/",
+		"ranking": 3,
 		"slug": "remyla",
-		"ranking": 3
+		"uri": "https://remyla31.github.io"
 	},
 	{
-		"uri": "https://the-casle.github.io/public/",
-		"slug": "the-casle",
-		"ranking": 3
+		"ranking": 3,
+		"slug": "ren7995",
+		"uri": "http://repo.lauren.sh"
 	},
 	{
-		"uri": "https://classicxiirepo.github.io/",
-		"slug": "classicxii",
-		"ranking": 3
+		"ranking": 3,
+		"slug": "ridn-beta",
+		"uri": "https://ridn.github.io/repo"
 	},
 	{
-		"uri": "https://submanifold.be/cydia/",
+		"ranking": 3,
+		"slug": "rikumi",
+		"uri": "https://rikumi.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "rishanan",
+		"uri": "https://rishanan.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "rob311",
+		"uri": "https://cydia.rob311.com/repo"
+	},
+	{
+		"ranking": 4,
+		"slug": "rotanakpiseth",
+		"uri": "https://rotanakpiseth.github.io"
+	},
+	{
+		"ranking": 4,
+		"slug": "roymakestuff",
+		"uri": "https://roymakestuff.github.io"
+	},
+	{
+		"ranking": 2,
+		"slug": "rpetrich",
+		"uri": "https://rpetri.ch/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "rrnmrnm",
+		"uri": "https://rrnmrnm.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "rudikelly",
+		"uri": "https://rudikelly.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "s0mecoder",
+		"uri": "https://s0mecoder.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "saadat",
+		"uri": "https://apt.saadat.dev"
+	},
+	{
+		"ranking": 3,
+		"slug": "saj0vie",
+		"uri": "https://saj0vie.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "samgisaninja",
+		"uri": "https://samgisaninja.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "sammy",
+		"uri": "https://sammydentino.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "sarim",
+		"uri": "https://sarim.github.io/cydia"
+	},
+	{
+		"ranking": 3,
+		"slug": "seatanners",
+		"uri": "https://seatanners.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "secura",
+		"uri": "https://apt.securarepo.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "shade-zepheri",
+		"uri": "https://shade-zepheri.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "shaundegr8-beta",
+		"uri": "https://shaundegr8.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "shepgoba",
+		"uri": "https://shepgoba.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "shiftcmdk",
+		"uri": "https://shiftcmdk.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "shuga",
+		"uri": "https://repo.shuga.co"
+	},
+	{
+		"ranking": 2,
+		"slug": "sileo",
+		"uri": "https://repo.getsileo.app"
+	},
+	{
+		"ranking": 3,
+		"slug": "siriusdev",
+		"uri": "https://siriusdev.me/privrepo"
+	},
+	{
+		"ranking": 2,
+		"slug": "skitty",
+		"uri": "https://skitty.xyz/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "skyfrost-beta",
+		"uri": "https://skyfrost.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "skylar-mccauley",
+		"uri": "https://skylarmccauley.xyz/hacked-repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "skylerk99",
+		"uri": "https://skylerk99.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "smokin1337",
+		"uri": "https://smokin1337.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "sn0wcooder",
+		"uri": "https://sn0wcooder.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "sn50",
+		"uri": "https://sn50repo.github.io"
+	},
+	{
+		"ranking": 2,
+		"slug": "sparkdev",
+		"uri": "https://sparkdev.me"
+	},
+	{
+		"ranking": 3,
+		"slug": "starwarsfan2099",
+		"uri": "https://starwarsfan2099.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "stek29",
+		"uri": "https://stek29.rocks/cyrepo"
+	},
+	{
+		"ranking": 3,
+		"slug": "steverolfe",
+		"uri": "https://apt.steverolfe.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "stkc",
+		"uri": "https://repo.stkc.win"
+	},
+	{
+		"ranking": 3,
+		"slug": "stravros",
+		"uri": "https://stavros.xyz/cydia"
+	},
+	{
+		"ranking": 3,
 		"slug": "submanifold",
-		"ranking": 3
+		"uri": "https://submanifold.be/cydia"
 	},
 	{
-		"uri": "https://brianleek.me/repo/",
-		"slug": "brianleek",
-		"ranking": 3
+		"ranking": 3,
+		"slug": "sudhip",
+		"uri": "https://ftp.sudhip.com/jbrepo"
 	},
 	{
-		"uri": "https://klutchkyle.github.io/",
-		"slug": "klutchkyle",
-		"ranking": 3
+		"ranking": 3,
+		"slug": "supermamon",
+		"uri": "https://supermamon.github.io/repo"
 	},
 	{
-		"uri": "https://rovert.me/apt/",
+		"ranking": 3,
+		"slug": "sutuplus",
+		"uri": "https://sutuplus.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "synnygr",
+		"uri": "https://synnygr.dev/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "szifon",
+		"uri": "https://stable.szifon.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "tale",
+		"uri": "https://apt.tale.me"
+	},
+	{
+		"ranking": 3,
+		"slug": "tapsharp",
+		"uri": "https://cydia.tapsharp.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "tateu",
+		"uri": "http://tateu.net/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "tdmd",
+		"uri": "https://tdmd.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "the-casle",
+		"uri": "https://the-casle.github.io/public"
+	},
+	{
+		"ranking": 3,
+		"slug": "the-casle-beta",
+		"uri": "https://the-casle.github.io/cydia"
+	},
+	{
+		"ranking": 3,
+		"slug": "thenatis",
+		"uri": "https://thenatis.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "thireus",
+		"uri": "https://repo.thireus.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "thomz",
+		"uri": "https://thomz07.github.io"
+	},
+	{
+		"ranking": 4,
+		"slug": "tiger",
+		"uri": "https://tiger-repo.github.io/Tiger"
+	},
+	{
+		"ranking": 3,
+		"slug": "tigi-software",
+		"uri": "https://tigisoftware.com/cydia"
+	},
+	{
+		"ranking": 2,
+		"slug": "tihmstar",
+		"uri": "https://repo.tihmstar.net"
+	},
+	{
+		"ranking": 3,
+		"slug": "tihmstar-beta",
+		"uri": "https://repo.tihmstar.net"
+	},
+	{
+		"ranking": 3,
+		"slug": "tinyapps",
+		"uri": "https://apt.tinyapps.cn"
+	},
+	{
+		"ranking": 3,
+		"slug": "tjg",
+		"uri": "https://repo.tjg.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "touchsprite",
+		"uri": "https://apt.touchsprite.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "toxicappl3",
+		"uri": "https://toxicappl3inc.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "tr1fecta",
+		"uri": "https://tr1fecta-7.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "trentjk",
+		"uri": "https://trentjk.github.io"
+	},
+	{
+		"ranking": 3,
 		"slug": "trevor-schmitt",
-		"ranking": 3
+		"uri": "https://rovert.me/apt"
 	},
 	{
-		"uri": "https://artsyskater.github.io/",
-		"slug": "artsyskater-public-sitory",
-		"ranking": 3
+		"ranking": 3,
+		"slug": "tweakality",
+		"uri": "https://tweakality.github.io/repo"
 	},
 	{
-		"uri": "https://botlove.github.io/",
-		"slug": "ios-setups",
-		"ranking": 3
+		"ranking": 3,
+		"slug": "tweaksfun",
+		"uri": "https://ios.tweaks.fun"
 	},
 	{
-		"uri": "https://favna.github.io/cydia/",
-		"slug": "favware",
-		"ranking": 3
+		"ranking": 4,
+		"slug": "tweakyx",
+		"uri": "https://tweakyx.github.io"
 	},
 	{
-		"uri": "https://ud-team.github.io/repo/",
+		"ranking": 2,
+		"slug": "twickd",
+		"uri": "https://repo.twickd.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "tyler-casson",
+		"uri": "https://repo.tylercasson.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "typ0s2d10",
+		"uri": "https://typ0s2d10.appspot.com/repo"
+	},
+	{
+		"ranking": 3,
 		"slug": "ud-team",
-		"ranking": 3
+		"uri": "https://ud-team.github.io/repo"
 	},
 	{
-		"uri": "https://pr0crustes.github.io/repo/",
-		"slug": "pr0crustes",
-		"ranking": 3
+		"ranking": 3,
+		"slug": "udevs",
+		"uri": "https://udevsharold.github.io/repo"
+	},
+	{
+		"ranking": 2,
+		"slug": "unlimapps",
+		"uri": "https://repo.unlimapps.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "uroboro",
+		"uri": "https://uroboro.github.io/repo"
+	},
+	{
+		"ranking": 4,
+		"slug": "viren",
+		"uri": "https://virenmohindra.me"
+	},
+	{
+		"ranking": 3,
+		"slug": "virenmohindra",
+		"uri": "https://virenmohindra.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "webstack",
+		"uri": "https://cydia.akemi.ai/webstack"
+	},
+	{
+		"ranking": 3,
+		"slug": "wiety",
+		"uri": "https://wiety.github.io/cydia"
+	},
+	{
+		"ranking": 3,
+		"slug": "william-muff",
+		"uri": "https://williammuff.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "winneon",
+		"uri": "https://repo.winneon.moe"
+	},
+	{
+		"ranking": 3,
+		"slug": "wizages",
+		"uri": "https://wizage.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "wolfposd",
+		"uri": "https://wolfposd.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "wynd-beta",
+		"uri": "https://wynd07.com/r7"
+	},
+	{
+		"ranking": 3,
+		"slug": "xmb5",
+		"uri": "https://xmb5.github.io/cydia"
+	},
+	{
+		"ranking": 3,
+		"slug": "xyaman",
+		"uri": "https://repo.xyaman.xyz"
+	},
+	{
+		"ranking": 3,
+		"slug": "yaypixxo'",
+		"uri": "https://yaypixxo.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "yobur",
+		"uri": "https://repo.yobur.xyz"
+	},
+	{
+		"ranking": 4,
+		"slug": "yourepo",
+		"uri": "https://www.yourepo.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "yp261",
+		"uri": "https://yp261.github.io/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "yulkytulky",
+		"uri": "https://yulkytulky.com"
+	},
+	{
+		"ranking": 3,
+		"slug": "yungspecht",
+		"uri": "https://yungspecht.github.io"
+	},
+	{
+		"ranking": 2,
+		"slug": "zebra",
+		"uri": "https://getzbra.com/repo"
+	},
+	{
+		"ranking": 3,
+		"slug": "zeek",
+		"uri": "https://zeekforit.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "zezblog",
+		"uri": "https://yazeedot.github.io"
+	},
+	{
+		"ranking": 3,
+		"slug": "zoey",
+		"uri": "https://repo.panties.moe"
 	}
 ]
