@@ -1,0 +1,10 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "CommonJS",
+		"strict": true,
+		"incremental": false,
+		"skipLibCheck": true,
+		"resolveJsonModule": true
+	}
+}
