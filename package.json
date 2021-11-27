@@ -1,4 +1,5 @@
 {
+	"name": "@cnstr/manifests",
 	"version": "1.0.0",
 	"description": "Authoritative source of information for Canister",
 	"homepage": "https://github.com/cnstr/manifests#readme",
