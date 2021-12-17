@@ -102,7 +102,7 @@
 	{
 		"ranking": 3,
 		"slug": "amy",
-		"uri": "https://repo.elihc.dev"
+		"uri": "https://repo.anamy.gay"
 	},
 	{
 		"ranking": 3,
@@ -810,11 +810,6 @@
 	},
 	{
 		"ranking": 3,
-		"slug": "jakeshacks",
-		"uri": "https://jakeashacks.net/cydia"
-	},
-	{
-		"ranking": 3,
 		"slug": "jakeydev",
 		"uri": "https://jakeydev.github.io/repo"
 	},
@@ -1342,6 +1337,11 @@
 		"ranking": 3,
 		"slug": "pillowbear",
 		"uri": "https://pillowbear.github.io"
+	},
+	{
+		"ranking": 2,
+		"slug": "pixelomer",
+		"uri": "https://repo.pixelomer.com"
 	},
 	{
 		"ranking": 3,
