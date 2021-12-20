@@ -1234,6 +1234,10 @@
 		"uri": "https://nyansatan.github.io/apt"
 	},
 	{
+		"aliases": [
+			"cadoth",
+			"nyu"
+		],
 		"ranking": 3,
 		"slug": "nyuszika7h",
 		"uri": "https://repo.cadoth.net"
