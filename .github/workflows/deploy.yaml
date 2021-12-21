@@ -20,7 +20,7 @@ jobs:
           node-version: '16'
 
       - name: Generate Manifests
-        run: npm install && npm run build
+        run: cd ci && npm install && npm run build && cd -
 
       - name: Deploy Manifests
         uses: peaceiris/actions-gh-pages@v3
