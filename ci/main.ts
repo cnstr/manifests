@@ -1,0 +1,75 @@
+import { cp, mkdir, readdir, readFile, writeFile } from 'fs/promises'
+import { createRequire } from 'module';
+import { join, resolve } from 'path'
+import { load } from 'js-yaml'
+
+const config_dir = join('..', 'configs')
+const prod_directory = join('..', 'dist')
+await mkdir(prod_directory, { recursive: true })
+
+// The Set() trick is a way to deduplicate the array and then allows us to sort it
+const piracy_hostnames = [...new Set(await readdir(join(config_dir, 'piracy-list')))]
+
+// Somehow not explicitly putting Buffer.from can create errors sometimes
+const piracy_json = Buffer.from(JSON.stringify(piracy_hostnames.sort()))
+await writeFile(join(prod_directory, 'piracy-repositories.json'), piracy_json)
+
+type Repository = {
+	uri: string
+	slug: string
+	dist?: string
+	suite?: string
+	ranking: number
+	aliases?: string[]
+}
+
+const index_files = await readdir(join(config_dir, 'index-list'))
+const index_data: Repository[] = []
+
+for (const file of index_files) {
+	const file_path = join(config_dir, 'index-list', file)
+	const entry = load(await readFile(file_path, 'utf8')) as Repository
+	if (entry.slug.includes(' ')) {
+		console.log()
+	}
+
+	if (entry.uri.endsWith('/')) {
+		entry.uri = entry.uri.slice(0, -1)
+	}
+
+	if (entry.dist && !entry.suite) {
+		console.log('%s: given dist without suite', entry.slug)
+	}
+
+	if (entry.suite && !entry.dist) {
+		console.log('%s: given suite without dist', entry.slug)
+	}
+
+	// We also want to sort individual keys alphabetically too
+	const alphabetical = Object.keys(entry).sort().reduce((previous, current) => ({
+		...previous, [current]: (entry as { [key: string]: unknown })[current]
+	}), {}) as Repository
+
+	index_data.push(alphabetical)
+}
+
+
+index_data.sort((repositoryA, repositoryB) => {
+	const slugA = repositoryA.slug.toLowerCase()
+	const slugB = repositoryB.slug.toLowerCase()
+
+	// Sorts repositories alphabetically by slug
+	return slugA < slugB ? -1 : slugA > slugB ? 1 : 0
+}).filter((value, index, array) => {
+	// Removes duplicates from the array based on the slug name or URI
+	return array.findIndex(subvalue => subvalue.slug === value.slug || subvalue.uri === value.uri) === index
+})
+
+// Somehow not explicitly putting Buffer.from can create errors sometimes
+const index_json = Buffer.from(JSON.stringify(index_data))
+await writeFile(join(prod_directory, 'index-repositories.json'), index_json)
+
+// Copy some final files before delegating publishing to Github Actions
+await cp(resolve('canister.png'), join(prod_directory, 'canister.png'))
+await cp(resolve('index.html'), join(prod_directory, 'index.html'))
+await cp(resolve('404.html'), join(prod_directory, '404.html'))
