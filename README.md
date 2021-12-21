@@ -1,7 +1,7 @@
-<img align="left" src=".github/canister.png" width="128" height="128" />
+<img align="left" src="ci/canister.png" width="128" height="128" />
 
 # cnstr/manifests
-**Authoritative source of information for Canister**
+**Authoritative source of information for [Canister](https://canister.me)**
 <br />
 <br />
 <br />
