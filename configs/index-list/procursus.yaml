@@ -1,0 +1,5 @@
+dist: iphoneos-arm64/1700
+ranking: 1
+slug: procursus
+suite: main
+uri: https://apt.procurs.us

@@ -1,0 +1,5 @@
+dist: stable
+ranking: 2
+slug: bigboss
+suite: main
+uri: http://apt.thebigboss.org/repofiles/cydia
