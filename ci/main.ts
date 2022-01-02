@@ -1,5 +1,4 @@
 import { cp, mkdir, readdir, readFile, writeFile } from 'fs/promises'
-import { createRequire } from 'module';
 import { join, resolve } from 'path'
 import { load } from 'js-yaml'
 
