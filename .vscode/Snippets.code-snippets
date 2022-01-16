@@ -2,9 +2,9 @@
 	"Create repo": {
 		"prefix": "createrepo",
 		"body": [
-            "ranking: $1",
-            "slug: $2",
-            "uri: $3"
+			"ranking: $1",
+			"slug: $2",
+			"uri: $3"
 		]
 	}
 }
