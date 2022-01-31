@@ -12,12 +12,13 @@ const piracy_hostnames = [...new Set(await readdir(join(config_dir, 'piracy-list
 // Somehow not explicitly putting Buffer.from can create errors sometimes
 const piracy_json = Buffer.from(JSON.stringify(piracy_hostnames.sort()))
 await writeFile(join(prod_directory, 'piracy-repositories.json'), piracy_json)
+console.log('wrote %s piracy repositories', piracy_hostnames.length)
 
 type Repository = {
 	uri: string
 	slug: string
 	dist?: string
-	suite?: string
+	suite: string
 	ranking: number
 	aliases?: string[]
 }
@@ -28,6 +29,11 @@ const index_data: Repository[] = []
 for (const file of index_files) {
 	const file_path = join(config_dir, 'index-list', file)
 	const entry = load(await readFile(file_path, 'utf8')) as Repository
+
+	if (!entry.suite) {
+		entry.suite = './'
+	}
+
 	if (entry.slug.includes(' ')) {
 		console.log()
 	}
@@ -38,10 +44,6 @@ for (const file of index_files) {
 
 	if (entry.dist && !entry.suite) {
 		console.log('%s: given dist without suite', entry.slug)
-	}
-
-	if (entry.suite && !entry.dist) {
-		console.log('%s: given suite without dist', entry.slug)
 	}
 
 	// We also want to sort individual keys alphabetically too
@@ -67,6 +69,7 @@ index_data.sort((repositoryA, repositoryB) => {
 // Somehow not explicitly putting Buffer.from can create errors sometimes
 const index_json = Buffer.from(JSON.stringify(index_data))
 await writeFile(join(prod_directory, 'index-repositories.json'), index_json)
+console.log('wrote %s index repositories', index_data.length)
 
 // Copy some final files before delegating publishing to Github Actions
 await cp(resolve('canister.png'), join(prod_directory, 'canister.png'))
