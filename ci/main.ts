@@ -1,13 +1,17 @@
-import { cp, mkdir, readdir, readFile, writeFile } from 'fs/promises'
-import { join, resolve } from 'path'
+import { cp, mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
+import { join, relative, resolve } from 'node:path'
 import { load } from 'js-yaml'
+import { globby } from 'globby'
 
 const config_dir = join('..', 'configs')
 const prod_directory = join('..', 'dist')
 await mkdir(prod_directory, { recursive: true })
 
 // The Set() trick is a way to deduplicate the array and then allows us to sort it
-const piracy_hostnames = [...new Set(await readdir(join(config_dir, 'piracy-list')))]
+const files = await globby(['..', 'piracy-list', '**'])
+const piracy_hostnames = [...new Set(files.map(path => {
+	return relative(join(config_dir, 'piracy-list'), path)
+}))]
 
 // Somehow not explicitly putting Buffer.from can create errors sometimes
 const piracy_json = Buffer.from(JSON.stringify(piracy_hostnames.sort()))
