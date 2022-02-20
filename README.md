@@ -4,7 +4,6 @@
 **Authoritative source of information for [Canister](https://canister.me)**
 <br />
 <br />
-<br />
 
 One of Canister's main focuses as a product is to maintain a level of transparency about the information it uses and distributes. This repository is a part of that and includes many of the core bits of data required for Canister to function.
 *Please note that it is recommended you use the API to acquire this information rather than the raw files.*

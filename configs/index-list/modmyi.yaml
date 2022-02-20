@@ -1,0 +1,5 @@
+dist: stable
+ranking: 4
+slug: modmyi
+suite: main
+uri: http://apt.modmyi.com
