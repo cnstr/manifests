@@ -22,8 +22,8 @@ console.log('wrote %s piracy repositories', piracy_hostnames.length)
 type Repository = {
 	uri: string
 	slug: string
-	dist?: string
 	suite: string
+	component?: string
 	ranking: number
 	aliases?: string[]
 }
@@ -47,8 +47,8 @@ for (const file of index_files) {
 		entry.uri = entry.uri.slice(0, -1)
 	}
 
-	if (entry.dist && !entry.suite) {
-		console.log('%s: given dist without suite', entry.slug)
+	if (entry.component && !entry.suite) {
+		console.log('%s: given a component without a suite', entry.slug)
 	}
 
 	// We also want to sort individual keys alphabetically too
