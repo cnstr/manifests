@@ -1,5 +1,5 @@
-dist: stable
+suite: stable
 ranking: 4
 slug: modmyi
-suite: main
+component: main
 uri: http://apt.modmyi.com

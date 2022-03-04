@@ -1,5 +1,5 @@
-dist: stable
+suite: stable
 ranking: 4
 slug: zodttd
-suite: main
+component: main
 uri: http://cydia.zodttd.com/repo/cydia
