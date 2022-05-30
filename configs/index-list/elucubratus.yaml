@@ -1,5 +1,5 @@
-dist: ios/1443.00
+suite: ios/1443.00
 ranking: 2
 slug: elucubratus
-suite: main
+component: main
 uri: https://apt.bingner.com
