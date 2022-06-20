@@ -1,17 +1,16 @@
 
-import { cp, mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
-import { join, relative, resolve } from 'node:path'
 import { load } from 'js-yaml'
-import { globby } from 'globby'
+import { cp, mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
+import { basename, join, resolve } from 'node:path'
 
 const config_dir = join('..', 'configs')
 const prod_directory = join('..', 'dist')
 await mkdir(prod_directory, { recursive: true })
 
 // The Set() trick is a way to deduplicate the array and then allows us to sort it
-const files = await globby(['..', 'piracy-list', '**'])
+const files = await readdir(join(config_dir, 'piracy-list'))
 const piracy_hostnames = [...new Set(files.map(path => {
-	return relative(join(config_dir, 'piracy-list'), path)
+	return basename(join(config_dir, 'piracy-list', path))
 }))]
 
 // Somehow not explicitly putting Buffer.from can create errors sometimes
@@ -40,7 +39,7 @@ for (const file of index_files) {
 	}
 
 	if (entry.slug.includes(' ')) {
-		console.log()
+		console.log('%s: slug contains a space', entry.slug)
 	}
 
 	if (entry.uri.endsWith('/')) {
