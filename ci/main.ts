@@ -78,4 +78,4 @@ console.log('wrote %s index repositories', index_data.length)
 // Copy some final files before delegating publishing to Github Actions
 await cp(resolve('canister.png'), join(prod_directory, 'canister.png'))
 await cp(resolve('index.html'), join(prod_directory, 'index.html'))
-await cp(resolve('404.html'), join(prod_directory, '404.html'))
+await cp(resolve('index.html'), join(prod_directory, '404.html'))
