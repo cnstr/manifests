@@ -1,45 +1,54 @@
-
-import { load } from 'js-yaml'
 import { cp, mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
 import { basename, join, resolve } from 'node:path'
+import { parse } from 'yaml'
 
-const config_dir = join('..', 'configs')
-const prod_directory = join('..', 'dist')
-await mkdir(prod_directory, { recursive: true })
+const configsPath = join('..', 'configs')
+const outputPath = join('..', 'dist')
+await mkdir(outputPath, { recursive: true })
+console.log('> Generating output files...')
 
-// The Set() trick is a way to deduplicate the array and then allows us to sort it
-const files = await readdir(join(config_dir, 'piracy-list'))
-const piracy_hostnames = [...new Set(files.map(path => {
-	return basename(join(config_dir, 'piracy-list', path))
-}))]
+const piracyFiles = await readdir(join(configsPath, 'piracy-list'))
+const piracyEndpoints = piracyFiles
+	.map(path => basename(join(configsPath, 'piracy-list', path)))
+	.filter((host, index, array) => {
+		// Filter out potential duplicates and warn
+		if (array.indexOf(host) !== index) {
+			console.log('! %s: duplicate piracy hostname', host)
+			return false
+		}
 
-// Somehow not explicitly putting Buffer.from can create errors sometimes
-const piracy_json = Buffer.from(JSON.stringify(piracy_hostnames.sort()))
-await writeFile(join(prod_directory, 'piracy-repositories.json'), piracy_json)
-console.log('wrote %s piracy repositories', piracy_hostnames.length)
+		return true
+	})
+	.sort() // Sort alphabetically
+
+// Generate the buffer for the output file
+const piracyFile = Buffer.from(JSON.stringify(piracyEndpoints))
+await writeFile(join(outputPath, 'piracy-repositories.json'), piracyFile)
+console.log('> Wrote %s piracy repositories', piracyEndpoints.length)
 
 type Repository = {
-	uri: string
-	slug: string
-	suite: string
-	component?: string
-	ranking: number
-	aliases?: string[]
+	uri: string;
+	slug: string;
+	suite: string;
+	component?: string;
+	ranking: number;
+	aliases?: string[];
 }
 
-const index_files = await readdir(join(config_dir, 'index-list'))
-const index_data: Repository[] = []
+const indexFiles = await readdir(join(configsPath, 'index-list'))
+const indexData = new Array<Repository>()
 
-for (const file of index_files) {
-	const file_path = join(config_dir, 'index-list', file)
-	const entry = load(await readFile(file_path, 'utf8')) as Repository
+for await (const file of indexFiles) {
+	const filePath = join(configsPath, 'index-list', file)
+	const fileData = await readFile(filePath, 'utf8')
+	const entry = parse(fileData) as Repository
 
 	if (!entry.suite) {
 		entry.suite = './'
 	}
 
 	if (entry.slug.includes(' ')) {
-		console.log('%s: slug contains a space', entry.slug)
+		console.log('! %s: slug contains a space', entry.slug)
 	}
 
 	if (entry.uri.endsWith('/')) {
@@ -47,35 +56,34 @@ for (const file of index_files) {
 	}
 
 	if (entry.component && !entry.suite) {
-		console.log('%s: given a component without a suite', entry.slug)
+		console.log('! %s: given a component without a suite', entry.slug)
 	}
 
 	// We also want to sort individual keys alphabetically too
-	const alphabetical = Object.keys(entry).sort().reduce((previous, current) => ({
-		...previous, [current]: (entry as { [key: string]: unknown })[current]
-	}), {}) as Repository
+	const alphabetical = Object.fromEntries(Object.keys(entry)
+		.sort()
+		.map(current => [current, (entry as Record<string, unknown>)[current]])) as Repository
 
-	index_data.push(alphabetical)
+	indexData.push(alphabetical)
 }
 
-
-index_data.sort((repositoryA, repositoryB) => {
+indexData.sort((repositoryA, repositoryB) => {
 	const slugA = repositoryA.slug.toLowerCase()
 	const slugB = repositoryB.slug.toLowerCase()
 
 	// Sorts repositories alphabetically by slug
-	return slugA < slugB ? -1 : slugA > slugB ? 1 : 0
-}).filter((value, index, array) => {
-	// Removes duplicates from the array based on the slug name or URI
-	return array.findIndex(subvalue => subvalue.slug === value.slug || subvalue.uri === value.uri) === index
+	return slugA < slugB ? -1 : (slugA > slugB ? 1 : 0)
 })
+	.filter((value, index, array) =>
+	// Removes duplicates from the array based on the slug name or URI
+		array.findIndex(subvalue => subvalue.slug === value.slug || subvalue.uri === value.uri) === index
+	)
 
-// Somehow not explicitly putting Buffer.from can create errors sometimes
-const index_json = Buffer.from(JSON.stringify(index_data))
-await writeFile(join(prod_directory, 'index-repositories.json'), index_json)
-console.log('wrote %s index repositories', index_data.length)
+const indexFile = Buffer.from(JSON.stringify(indexData))
+await writeFile(join(outputPath, 'index-repositories.json'), indexFile)
+console.log('> Wrote %s index repositories', indexData.length)
 
 // Copy some final files before delegating publishing to Github Actions
-await cp(resolve('canister.png'), join(prod_directory, 'canister.png'))
-await cp(resolve('index.html'), join(prod_directory, 'index.html'))
-await cp(resolve('index.html'), join(prod_directory, '404.html'))
+await cp(resolve('canister.png'), join(outputPath, 'canister.png'))
+await cp(resolve('index.html'), join(outputPath, 'index.html'))
+await cp(resolve('index.html'), join(outputPath, '404.html'))
