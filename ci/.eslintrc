@@ -1,0 +1,6 @@
+{
+	"extends": "tale",
+	"parserOptions": {
+		"project": "./ci/tsconfig.json"
+	}
+}
