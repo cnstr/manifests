@@ -1,3 +1,5 @@
+suite: iphoneos-arm
 ranking: 3
 slug: ironside
-uri: https://repo.ironside.org.uk
+component: main
+uri: https://apt.ironside.org.uk/
