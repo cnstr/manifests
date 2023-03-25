@@ -1,3 +1,5 @@
+suite: darwin-amd64
 ranking: 1
 slug: ironside-strap
-uri: https://mac.ironside.org.uk
+component: main
+uri: https://apt.ironside.org.uk/
