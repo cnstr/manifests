@@ -1,3 +1,4 @@
 ranking: 3
 slug: odyssey
 uri: https://repo.theodyssey.dev
+bootstrap: true

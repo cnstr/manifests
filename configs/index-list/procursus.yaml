@@ -3,3 +3,4 @@ ranking: 1
 slug: procursus
 component: main
 uri: https://apt.procurs.us
+bootstrap: true

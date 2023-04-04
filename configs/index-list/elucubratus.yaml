@@ -3,3 +3,4 @@ ranking: 2
 slug: elucubratus
 component: main
 uri: https://apt.bingner.com
+bootstrap: true
