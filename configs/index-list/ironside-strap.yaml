@@ -3,3 +3,4 @@ ranking: 1
 slug: ironside-strap
 component: main
 uri: https://apt.ironside.org.uk/
+bootstrap: true
