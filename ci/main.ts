@@ -30,6 +30,7 @@ type Repository = {
 	uri: string;
 	slug: string;
 	suite: string;
+	bootstrap: boolean;
 	component?: string;
 	ranking: number;
 	aliases?: string[];
@@ -45,6 +46,10 @@ for await (const file of indexFiles) {
 
 	if (!entry.suite) {
 		entry.suite = './'
+	}
+
+	if (!entry.bootstrap) {
+		entry.bootstrap = false
 	}
 
 	if (entry.slug.includes(' ')) {
