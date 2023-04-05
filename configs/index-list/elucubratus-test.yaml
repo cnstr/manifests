@@ -1,0 +1,6 @@
+suite: ios/1443.00
+ranking: 3
+slug: elucubratus-test
+component: main
+uri: https://test.apt.bingner.com
+bootstrap: true
