@@ -1,0 +1,6 @@
+suite: ios/1443.00
+ranking: 3
+slug: telesphoreo
+component: main
+uri: http://apt.saurik.com
+bootstrap: true

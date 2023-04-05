@@ -1,3 +1,4 @@
 ranking: 3
 slug: libhooker-beta
 uri: https://repo.theodyssey.dev/libhooker-beta
+bootstrap: true
