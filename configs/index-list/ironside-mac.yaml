@@ -1,6 +1,6 @@
 suite: darwin-amd64
 ranking: 1
-slug: ironside-strap
+slug: ironside-mac
 component: main
 uri: https://apt.ironside.org.uk/
 bootstrap: true
