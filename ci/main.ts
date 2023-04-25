@@ -54,6 +54,12 @@ for await (const file of indexFiles) {
 
 	if (entry.slug.includes(' ')) {
 		console.log('! %s: slug contains a space', entry.slug)
+		continue
+	}
+
+	if (!entry.slug.match(/^[a-zA-Z0-9-_.]+$/)) {
+		console.log('! %s: slug contains invalid characters', entry.slug)
+		continue
 	}
 
 	if (entry.uri.endsWith('/')) {
