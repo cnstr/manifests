@@ -1,4 +1,4 @@
-suite: iphoneos-arm64/1700
+suite: iphoneos-arm64-rootless/1800
 ranking: 1
 slug: procursus
 component: main

@@ -1,0 +1,6 @@
+suite: iphoneos-arm64/1700
+ranking: 3
+slug: procursus-rootful
+component: main
+uri: https://apt.procurs.us
+bootstrap: true
