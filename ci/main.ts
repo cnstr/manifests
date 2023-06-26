@@ -32,6 +32,7 @@ type Repository = {
 	suite: string;
 	bootstrap: boolean;
 	component?: string;
+	binary?: string;
 	ranking: number;
 	aliases?: string[];
 }
@@ -68,6 +69,12 @@ for await (const file of indexFiles) {
 
 	if (entry.component && !entry.suite) {
 		console.log('! %s: given a component without a suite', entry.slug)
+		continue
+	}
+
+	if (entry.component && !entry.binary) {
+		console.log('! %s: given a component without a binary', entry.slug)
+		continue
 	}
 
 	// We also want to sort individual keys alphabetically too
