@@ -3,3 +3,4 @@ ranking: 4
 slug: modmyi
 component: main
 uri: http://apt.modmyi.com
+binary: iphoneos-arm

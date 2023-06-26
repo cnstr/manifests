@@ -4,3 +4,4 @@ slug: telesphoreo
 component: main
 uri: http://apt.saurik.com
 bootstrap: true
+binary: iphoneos-arm

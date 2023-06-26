@@ -4,3 +4,4 @@ slug: procursus
 component: main
 uri: https://apt.procurs.us
 bootstrap: true
+binary: iphoneos-arm64

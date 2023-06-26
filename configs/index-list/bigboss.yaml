@@ -3,3 +3,4 @@ ranking: 2
 slug: bigboss
 component: main
 uri: http://apt.thebigboss.org/repofiles/cydia
+binary: iphoneos-arm

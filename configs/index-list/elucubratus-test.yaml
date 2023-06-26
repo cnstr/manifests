@@ -4,3 +4,4 @@ slug: elucubratus-test
 component: main
 uri: https://test.apt.bingner.com
 bootstrap: true
+binary: iphoneos-arm
