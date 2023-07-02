@@ -1,6 +1,4 @@
-suite: iphoneos-arm
-ranking: 3
+ranking: 2
 slug: modiverse
-component: main
 uri: https://apt.modiverse.co.uk/
 
