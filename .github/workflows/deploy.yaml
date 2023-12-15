@@ -7,6 +7,7 @@ on:
 
 jobs:
   deploy:
+    name: Deploy Manifests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -15,7 +16,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 'lts'
+          node-version: 'lts/Iron'
 
       - name: Setup PNPM
         uses: pnpm/action-setup@v2
