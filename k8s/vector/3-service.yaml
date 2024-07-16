@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: vector
+  namespace: canister
+spec:
+  ports:
+    - port: 8687
+      targetPort: 8687
+  selector:
+    app: com.tale.canister.vector

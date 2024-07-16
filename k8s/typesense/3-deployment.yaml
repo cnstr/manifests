@@ -1,0 +1,58 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: typesense
+  namespace: canister
+  labels:
+    app: com.tale.canister.typesense
+spec:
+  selector:
+    matchLabels:
+      app: com.tale.canister.typesense
+  template:
+    metadata:
+      labels:
+        app: com.tale.canister.typesense
+    spec:
+      securityContext:
+        fsGroup: 2000
+        runAsUser: 10000
+        runAsGroup: 3000
+        runAsNonRoot: true
+      containers:
+      - name: typesense
+        image: typesense/typesense:26.0
+        ports:
+        - containerPort: 8108
+          name: http
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8108
+          initialDelaySeconds: 5
+          periodSeconds: 5
+          timeoutSeconds: 5
+        envFrom:
+          - secretRef:
+              name: typesense-kv
+        env:
+          - name: TYPESENSE_DATA_DIR
+            value: /usr/share/typesense/data
+          - name: TYPESENSE_API_ADDRESS
+            value: '0.0.0.0'
+          - name: TYPESENSE_ENABLE_CORS
+            value: 'true'
+        resources:
+          requests:
+            memory: 256Mi
+            cpu: 256m
+          limits:
+            memory: 1Gi
+            cpu: 1024m
+        volumeMounts:
+        - name: data
+          mountPath: /usr/share/typesense/data
+      volumes:
+        - name: data
+          persistentVolumeClaim:
+            claimName: typesense

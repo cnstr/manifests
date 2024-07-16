@@ -1,0 +1,14 @@
+apiVersion: secrets.hashicorp.com/v1beta1
+kind: VaultStaticSecret
+metadata:
+  name: vault-typesense-kv
+  namespace: canister
+spec:
+  destination:
+    create: true
+    name: typesense-kv
+  mount: kv
+  path: canister/typesense
+  refreshAfter: 30s
+  type: kv-v2
+  vaultAuthRef: vault-auth

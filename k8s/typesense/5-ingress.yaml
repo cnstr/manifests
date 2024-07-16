@@ -1,0 +1,46 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: typesense-ingress
+  namespace: canister
+  annotations:
+    cert-manager.io/cluster-issuer: acme-prod
+spec:
+  ingressClassName: nginx
+  rules:
+    - host: ts-prod1.canister.me
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: typesense
+                port:
+                  number: 8108
+    - host: ts-prod2.canister.me
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: typesense
+                port:
+                  number: 8108
+    - host: ts-prod3.canister.me
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: typesense
+                port:
+                  number: 8108
+  tls:
+    - hosts:
+        - ts-prod1.canister.me
+        - ts-prod2.canister.me
+        - ts-prod3.canister.me
+      secretName: ts-cluster-tls

@@ -1,0 +1,14 @@
+apiVersion: secrets.hashicorp.com/v1beta1
+kind: VaultStaticSecret
+metadata:
+  name: vault-api-kv
+  namespace: canister
+spec:
+  destination:
+    create: true
+    name: api-kv
+  mount: kv
+  path: canister/api
+  refreshAfter: 30s
+  type: kv-v2
+  vaultAuthRef: vault-auth

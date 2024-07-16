@@ -1,0 +1,55 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: clickhouse
+  namespace: canister
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: com.tale.canister.clickhouse
+  template:
+    metadata:
+      labels:
+        app: com.tale.canister.clickhouse
+    spec:
+      restartPolicy: Always
+      containers:
+      - name: clickhouse
+        image: clickhouse/clickhouse-server:latest
+        ports:
+        - name: clickhouse
+          containerPort: 8123
+        volumeMounts:
+        - name: migration
+          mountPath: /docker-entrypoint-initdb.d/
+        - name: data
+          mountPath: /var/lib/clickhouse
+        env:
+        - name: 'CLICKHOUSE_DEFAULT_ACCES_MANAGEMENT'
+          value: '1'
+        envFrom:
+        - secretRef:
+            name: clickhouse-kv
+        readinessProbe:
+          httpGet:
+            path: /ping
+            port: 8123
+          initialDelaySeconds: 5
+          periodSeconds: 5
+        livenessProbe:
+          httpGet:
+            path: /ping
+            port: 8123
+          initialDelaySeconds: 5
+          periodSeconds: 5
+      volumes:
+      - name: migration
+        configMap:
+          name: clickhouse-migration
+          items:
+            - key: migration.sql
+              path: migration.sql
+      - name: data
+        persistentVolumeClaim:
+          claimName: clickhouse

@@ -1,0 +1,22 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: core
+  namespace: canister
+spec:
+  schedule: 0 * * * *
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 1
+  concurrencyPolicy: Replace
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+            - image: ghcr.io/cnstr/core:latest
+              imagePullPolicy: Always
+              name: core
+              envFrom:
+                - secretRef:
+                    name: core-kv

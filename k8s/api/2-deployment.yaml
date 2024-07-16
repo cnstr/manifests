@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api
+  namespace: canister
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: com.tale.canister.api
+  template:
+    metadata:
+      labels:
+        app: com.tale.canister.api
+    spec:
+      restartPolicy: Always
+      containers:
+      - name: api
+        image: ghcr.io/cnstr/api:latest
+        imagePullPolicy: Always
+        ports:
+        - name: api
+          containerPort: 3000
+        env:
+        - name: POD_NAME
+          valueFrom:
+            fieldRef:
+              fieldPath: metadata.name
+        envFrom:
+        - secretRef:
+            name: api-kv

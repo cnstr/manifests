@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vector
+  namespace: canister
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: com.tale.canister.vector
+  template:
+    metadata:
+      labels:
+        app: com.tale.canister.vector
+    spec:
+      restartPolicy: Always
+      containers:
+      - name: vector
+        image: timberio/vector:0.39.0-distroless-libc
+        command:
+        - /usr/bin/vector
+        - --config
+        - /etc/vector/vector.toml
+        ports:
+        - name: vector
+          containerPort: 8687
+        volumeMounts:
+        - name: vector
+          mountPath: /etc/vector
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8686
+          initialDelaySeconds: 5
+          periodSeconds: 5
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8686
+          initialDelaySeconds: 5
+          periodSeconds: 5
+      volumes:
+      - name: vector
+        secret:
+          secretName: vector-kv
+          items:
+          - key: VECTOR_CONFIG
+            path: vector.toml

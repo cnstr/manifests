@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grafana
+  namespace: canister
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: com.tale.canister.grafana
+  template:
+    metadata:
+      labels:
+        app: com.tale.canister.grafana
+    spec:
+      restartPolicy: Always
+      containers:
+      - name: grafana
+        image: grafana/grafana:latest
+        ports:
+        - name: grafana
+          containerPort: 3000
+        volumeMounts:
+        - name: dashboards
+          mountPath: /var/lib/grafana
+      volumes:
+      - name: dashboards
+        persistentVolumeClaim:
+          claimName: grafana

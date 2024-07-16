@@ -1,0 +1,13 @@
+apiVersion: secrets.hashicorp.com/v1beta1
+kind: VaultAuth
+metadata:
+  name: vault-auth
+  namespace: canister
+spec:
+  kubernetes:
+    audiences:
+    - vault
+    role: k8s-cluster
+    serviceAccount: default
+  method: kubernetes
+  mount: kubernetes
